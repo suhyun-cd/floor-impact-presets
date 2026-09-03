@@ -1,0 +1,7493 @@
+{
+  "_meta": {
+    "version": "1.1",
+    "description": "내장 바닥구조 프리셋 (바닥충격음 차단구조 인정서 기반) + 완충재 실측값",
+    "changes": "elastic에 dynamic_stiffness_measured_min/max, loss_factor_measured_min/max 추가 (KS F 2868 가열 전 시험 기준, 실측 자료 없으면 null). 말미 3건(Flosys-20, S20-60EB2-210, Zero Sound Foam-C25)은 인정 자료가 없어 실측값만 담은 신규 항목이라 grade/slab/floating_layers가 null 또는 빈 배열."
+  },
+  "L4-SIB30A-210": {
+    "source": "builtin",
+    "cert_no": "제20-01호",
+    "grade": {
+      "tapping": 1,
+      "ball": 3
+    },
+    "slab": {
+      "thickness": 210,
+      "strength": 24,
+      "density": 2300
+    },
+    "elastic": {
+      "thickness": 30,
+      "dynamic_stiffness": 19.5,
+      "dynamic_stiffness_measured_min": 15.3,
+      "dynamic_stiffness_measured_max": 18.2,
+      "loss_factor": 0.2,
+      "loss_factor_measured_min": 0.05,
+      "loss_factor_measured_max": 0.1
+    },
+    "subslab_layers": [],
+    "floating_layers": [
+      {
+        "name": "경량기포콘크리트",
+        "thickness": 40,
+        "strength": 1.4,
+        "density": 500
+      },
+      {
+        "name": "마감모르타르",
+        "thickness": 40,
+        "strength": 13.8,
+        "density": 2100
+      }
+    ]
+  },
+  "노이즈블럭S40-210S": {
+    "source": "builtin",
+    "cert_no": "제20-06호",
+    "grade": {
+      "tapping": 1,
+      "ball": 4
+    },
+    "slab": {
+      "thickness": 210,
+      "strength": 24,
+      "density": 2300
+    },
+    "elastic": {
+      "thickness": 40,
+      "dynamic_stiffness": 16.0,
+      "dynamic_stiffness_measured_min": null,
+      "dynamic_stiffness_measured_max": null,
+      "loss_factor": 0.2,
+      "loss_factor_measured_min": null,
+      "loss_factor_measured_max": null
+    },
+    "subslab_layers": [],
+    "floating_layers": [
+      {
+        "name": "마감모르타르",
+        "thickness": 40,
+        "strength": 13.6,
+        "density": 2100
+      }
+    ]
+  },
+  "소닉스 U2 시스템": {
+    "source": "builtin",
+    "cert_no": "제20-09호",
+    "grade": {
+      "tapping": 1,
+      "ball": 3
+    },
+    "slab": {
+      "thickness": 210,
+      "strength": 24,
+      "density": 2300
+    },
+    "elastic": {
+      "thickness": 30,
+      "dynamic_stiffness": 17.5,
+      "dynamic_stiffness_measured_min": 3.6,
+      "dynamic_stiffness_measured_max": 4.9,
+      "loss_factor": 0.2,
+      "loss_factor_measured_min": 0.13,
+      "loss_factor_measured_max": 0.17
+    },
+    "subslab_layers": [],
+    "floating_layers": [
+      {
+        "name": "경량기포콘크리트",
+        "thickness": 40,
+        "strength": 0.9,
+        "density": 500
+      },
+      {
+        "name": "마감모르타르",
+        "thickness": 40,
+        "strength": 13.5,
+        "density": 2100
+      }
+    ]
+  },
+  "L5-DL30B-210": {
+    "source": "builtin",
+    "cert_no": "제21-05호",
+    "grade": {
+      "tapping": 1,
+      "ball": 3
+    },
+    "slab": {
+      "thickness": 210.0,
+      "strength": 24.0,
+      "density": 2300.0
+    },
+    "elastic": {
+      "thickness": 30.0,
+      "dynamic_stiffness": 20.2,
+      "dynamic_stiffness_measured_min": null,
+      "dynamic_stiffness_measured_max": null,
+      "loss_factor": 0.2,
+      "loss_factor_measured_min": null,
+      "loss_factor_measured_max": null
+    },
+    "subslab_layers": [],
+    "floating_layers": [
+      {
+        "name": "모르타르",
+        "thickness": 40.0,
+        "strength": 15.4,
+        "density": 2100.0
+      },
+      {
+        "name": "마감모르타르",
+        "thickness": 40.0,
+        "strength": 13.3,
+        "density": 2100.0
+      }
+    ]
+  },
+  "L5-DL30C-210": {
+    "source": "builtin",
+    "cert_no": "제21-06호",
+    "grade": {
+      "tapping": 1,
+      "ball": 3
+    },
+    "slab": {
+      "thickness": 210.0,
+      "strength": 24.0,
+      "density": 2300.0
+    },
+    "elastic": {
+      "thickness": 30.0,
+      "dynamic_stiffness": 20.9,
+      "dynamic_stiffness_measured_min": null,
+      "dynamic_stiffness_measured_max": null,
+      "loss_factor": 0.2,
+      "loss_factor_measured_min": null,
+      "loss_factor_measured_max": null
+    },
+    "subslab_layers": [],
+    "floating_layers": [
+      {
+        "name": "모르타르",
+        "thickness": 40.0,
+        "strength": 16.5,
+        "density": 2100.0
+      },
+      {
+        "name": "마감모르타르",
+        "thickness": 40.0,
+        "strength": 13.8,
+        "density": 2100.0
+      }
+    ]
+  },
+  "H 사일런트홈 시스템 Ⅰ": {
+    "source": "builtin",
+    "cert_no": "제21-07호",
+    "grade": {
+      "tapping": 1,
+      "ball": 3
+    },
+    "slab": {
+      "thickness": 210.0,
+      "strength": 24.0,
+      "density": 2300.0
+    },
+    "elastic": {
+      "thickness": 40.0,
+      "dynamic_stiffness": 2.3,
+      "dynamic_stiffness_measured_min": null,
+      "dynamic_stiffness_measured_max": null,
+      "loss_factor": 0.2,
+      "loss_factor_measured_min": null,
+      "loss_factor_measured_max": null
+    },
+    "subslab_layers": [],
+    "floating_layers": [
+      {
+        "name": "경량기포콘크리트",
+        "thickness": 30.0,
+        "strength": 2.4,
+        "density": 500.0
+      },
+      {
+        "name": "마감모르타르",
+        "thickness": 40.0,
+        "strength": 7.8,
+        "density": 2100.0
+      }
+    ]
+  },
+  "노이즈블럭 A30": {
+    "source": "builtin",
+    "cert_no": "제21-11호",
+    "grade": {
+      "tapping": 1,
+      "ball": 4
+    },
+    "slab": {
+      "thickness": 210.0,
+      "strength": 24.0,
+      "density": 2300.0
+    },
+    "elastic": {
+      "thickness": 30.0,
+      "dynamic_stiffness": 21.1,
+      "dynamic_stiffness_measured_min": 6.1,
+      "dynamic_stiffness_measured_max": 13.8,
+      "loss_factor": 0.2,
+      "loss_factor_measured_min": 0.08,
+      "loss_factor_measured_max": 0.14
+    },
+    "subslab_layers": [],
+    "floating_layers": [
+      {
+        "name": "경량기포콘크리트",
+        "thickness": 40.0,
+        "strength": 1.4,
+        "density": 500.0
+      },
+      {
+        "name": "마감모르타르",
+        "thickness": 40.0,
+        "strength": 15.2,
+        "density": 2100.0
+      }
+    ]
+  },
+  "L6-HB40B1-210": {
+    "source": "builtin",
+    "cert_no": "제21-13호",
+    "grade": {
+      "tapping": 1,
+      "ball": 2
+    },
+    "slab": {
+      "thickness": 210.0,
+      "strength": 24.0,
+      "density": 2300.0
+    },
+    "elastic": {
+      "thickness": 40.0,
+      "dynamic_stiffness": 16.1,
+      "dynamic_stiffness_measured_min": null,
+      "dynamic_stiffness_measured_max": null,
+      "loss_factor": 0.2,
+      "loss_factor_measured_min": null,
+      "loss_factor_measured_max": null
+    },
+    "subslab_layers": [
+      {
+        "name": "기초모르타르",
+        "thickness": 30.0,
+        "strength": 17.8,
+        "density": 2300.0
+      }
+    ],
+    "floating_layers": [
+      {
+        "name": "마감모르타르",
+        "thickness": 50.0,
+        "strength": 16.6,
+        "density": 2300.0
+      }
+    ]
+  },
+  "L6-EV30B3-210": {
+    "source": "builtin",
+    "cert_no": "제21-15호",
+    "grade": {
+      "tapping": 1,
+      "ball": 4
+    },
+    "slab": {
+      "thickness": 210.0,
+      "strength": 24.0,
+      "density": 2300.0
+    },
+    "elastic": {
+      "thickness": 30.0,
+      "dynamic_stiffness": 23.8,
+      "dynamic_stiffness_measured_min": null,
+      "dynamic_stiffness_measured_max": null,
+      "loss_factor": 0.2,
+      "loss_factor_measured_min": null,
+      "loss_factor_measured_max": null
+    },
+    "subslab_layers": [],
+    "floating_layers": [
+      {
+        "name": "경량기포콘크리트",
+        "thickness": 40.0,
+        "strength": 1.5,
+        "density": 500.0
+      },
+      {
+        "name": "마감모르타르",
+        "thickness": 40.0,
+        "strength": 16.2,
+        "density": 2100.0
+      }
+    ]
+  },
+  "E2 시스템": {
+    "source": "builtin",
+    "cert_no": "제21-21호",
+    "grade": {
+      "tapping": 1,
+      "ball": 3
+    },
+    "slab": {
+      "thickness": 210.0,
+      "strength": 24.0,
+      "density": 2300.0
+    },
+    "elastic": {
+      "thickness": 30.0,
+      "dynamic_stiffness": 6.1,
+      "dynamic_stiffness_measured_min": null,
+      "dynamic_stiffness_measured_max": null,
+      "loss_factor": 0.2,
+      "loss_factor_measured_min": null,
+      "loss_factor_measured_max": null
+    },
+    "subslab_layers": [],
+    "floating_layers": [
+      {
+        "name": "E-con(R)",
+        "thickness": 40.0,
+        "strength": 2.2,
+        "density": 1402
+      },
+      {
+        "name": "마감모르타르",
+        "thickness": 40.0,
+        "strength": 21.3,
+        "density": 2100.0
+      }
+    ]
+  },
+  "EK-LT-EPP401 시스템": {
+    "source": "builtin",
+    "cert_no": "제21-23호",
+    "grade": {
+      "tapping": 1,
+      "ball": 4
+    },
+    "slab": {
+      "thickness": 210.0,
+      "strength": 24.0,
+      "density": 2300.0
+    },
+    "elastic": {
+      "thickness": 40.0,
+      "dynamic_stiffness": 23.4,
+      "dynamic_stiffness_measured_min": null,
+      "dynamic_stiffness_measured_max": null,
+      "loss_factor": 0.2,
+      "loss_factor_measured_min": null,
+      "loss_factor_measured_max": null
+    },
+    "subslab_layers": [],
+    "floating_layers": [
+      {
+        "name": "1차 모르타르",
+        "thickness": 30.0,
+        "strength": 13.2,
+        "density": 2100.0
+      },
+      {
+        "name": "마감모르타르",
+        "thickness": 40.0,
+        "strength": 13.9,
+        "density": 2100.0
+      }
+    ]
+  },
+  "EK-소리지움 303 시스템": {
+    "source": "builtin",
+    "cert_no": "제21-26호",
+    "grade": {
+      "tapping": 1,
+      "ball": 4
+    },
+    "slab": {
+      "thickness": 210.0,
+      "strength": 24.0,
+      "density": 2300.0
+    },
+    "elastic": {
+      "thickness": 30.0,
+      "dynamic_stiffness": 26.7,
+      "dynamic_stiffness_measured_min": null,
+      "dynamic_stiffness_measured_max": null,
+      "loss_factor": 0.2,
+      "loss_factor_measured_min": null,
+      "loss_factor_measured_max": null
+    },
+    "subslab_layers": [],
+    "floating_layers": [
+      {
+        "name": "경량기포콘크리트",
+        "thickness": 40.0,
+        "strength": 1.5,
+        "density": 500.0
+      },
+      {
+        "name": "마감모르타르",
+        "thickness": 40.0,
+        "strength": 13.9,
+        "density": 2100.0
+      }
+    ]
+  },
+  "DI-JS SYSTEM 150-1": {
+    "source": "builtin",
+    "cert_no": "제21-28호",
+    "grade": {
+      "tapping": 1,
+      "ball": 3
+    },
+    "slab": {
+      "thickness": 150.0,
+      "strength": 24.0,
+      "density": 2300.0
+    },
+    "elastic": {
+      "thickness": 30.0,
+      "dynamic_stiffness": 25.5,
+      "dynamic_stiffness_measured_min": 7.8,
+      "dynamic_stiffness_measured_max": 19.9,
+      "loss_factor": 0.2,
+      "loss_factor_measured_min": 0.06,
+      "loss_factor_measured_max": 0.08
+    },
+    "subslab_layers": [],
+    "floating_layers": [
+      {
+        "name": "경량기포콘크리트",
+        "thickness": 40.0,
+        "strength": 1.5,
+        "density": 500.0
+      },
+      {
+        "name": "마감모르타르",
+        "thickness": 40.0,
+        "strength": 13.7,
+        "density": 2100.0
+      }
+    ]
+  },
+  "논노-골드": {
+    "source": "builtin",
+    "cert_no": "제22-03호",
+    "grade": {
+      "tapping": 1,
+      "ball": 4
+    },
+    "slab": {
+      "thickness": 210.0,
+      "strength": 24.0,
+      "density": 2300.0
+    },
+    "elastic": {
+      "thickness": 28.0,
+      "dynamic_stiffness": 4.3,
+      "dynamic_stiffness_measured_min": null,
+      "dynamic_stiffness_measured_max": null,
+      "loss_factor": 0.2,
+      "loss_factor_measured_min": null,
+      "loss_factor_measured_max": null
+    },
+    "subslab_layers": [],
+    "floating_layers": [
+      {
+        "name": "방진차음몰탈",
+        "thickness": 30.0,
+        "strength": 4.2,
+        "density": 1008.8
+      },
+      {
+        "name": "마감모르타르",
+        "thickness": 50.0,
+        "strength": 13.8,
+        "density": 2100.0
+      }
+    ]
+  },
+  "SMD-IV system": {
+    "source": "builtin",
+    "cert_no": "제22-05호",
+    "grade": {
+      "tapping": 1,
+      "ball": 3
+    },
+    "slab": {
+      "thickness": 250.0,
+      "strength": 24.0,
+      "density": 2300.0
+    },
+    "elastic": {
+      "thickness": 30.0,
+      "dynamic_stiffness": 17.8,
+      "dynamic_stiffness_measured_min": null,
+      "dynamic_stiffness_measured_max": null,
+      "loss_factor": 0.2,
+      "loss_factor_measured_min": null,
+      "loss_factor_measured_max": null
+    },
+    "subslab_layers": [],
+    "floating_layers": [
+      {
+        "name": "1차모르타르",
+        "thickness": 40.0,
+        "strength": 21.4,
+        "density": 2100.0
+      },
+      {
+        "name": "마감모르타르",
+        "thickness": 40.0,
+        "strength": 21.5,
+        "density": 2100.0
+      }
+    ]
+  },
+  "META-DS-CALM 시스템": {
+    "source": "builtin",
+    "cert_no": "제22-10호",
+    "grade": {
+      "tapping": 2,
+      "ball": 4
+    },
+    "slab": {
+      "thickness": 210.0,
+      "strength": 24.0,
+      "density": 2300.0
+    },
+    "elastic": {
+      "thickness": 30.0,
+      "dynamic_stiffness": 23.2,
+      "dynamic_stiffness_measured_min": null,
+      "dynamic_stiffness_measured_max": null,
+      "loss_factor": 0.2,
+      "loss_factor_measured_min": null,
+      "loss_factor_measured_max": null
+    },
+    "subslab_layers": [
+      {
+        "name": "1차모르타르",
+        "thickness": 40.0,
+        "strength": 12.1,
+        "density": 2100.0
+      }
+    ],
+    "floating_layers": [
+      {
+        "name": "마감모르타르",
+        "thickness": 40.0,
+        "strength": 13.0,
+        "density": 2100.0
+      }
+    ]
+  },
+  "소닉스 U40 시스템": {
+    "source": "builtin",
+    "cert_no": "제22-12호",
+    "grade": {
+      "tapping": 1,
+      "ball": 3
+    },
+    "slab": {
+      "thickness": 210.0,
+      "strength": 24.0,
+      "density": 2300.0
+    },
+    "elastic": {
+      "thickness": 40.0,
+      "dynamic_stiffness": 5.1,
+      "dynamic_stiffness_measured_min": null,
+      "dynamic_stiffness_measured_max": null,
+      "loss_factor": 0.2,
+      "loss_factor_measured_min": null,
+      "loss_factor_measured_max": null
+    },
+    "subslab_layers": [],
+    "floating_layers": [
+      {
+        "name": "경량기포콘크리트",
+        "thickness": 30.0,
+        "strength": 1.4,
+        "density": 500.0
+      },
+      {
+        "name": "마감모르타르",
+        "thickness": 40.0,
+        "strength": 13.2,
+        "density": 2100.0
+      }
+    ]
+  },
+  "H 사일런트홈 시스템 Ⅱ": {
+    "source": "builtin",
+    "cert_no": "제22-13호",
+    "grade": {
+      "tapping": 1,
+      "ball": 1
+    },
+    "slab": {
+      "thickness": 240.0,
+      "strength": 24.0,
+      "density": 2300.0
+    },
+    "elastic": {
+      "thickness": 40.0,
+      "dynamic_stiffness": 1.8,
+      "dynamic_stiffness_measured_min": null,
+      "dynamic_stiffness_measured_max": null,
+      "loss_factor": 0.2,
+      "loss_factor_measured_min": null,
+      "loss_factor_measured_max": null
+    },
+    "subslab_layers": [],
+    "floating_layers": [
+      {
+        "name": "1차 고밀도 마감모르타르",
+        "thickness": 30.0,
+        "strength": 20.5,
+        "density": 2400.0
+      },
+      {
+        "name": "2차 고밀도 마감모르타르",
+        "thickness": 40.0,
+        "strength": 26.9,
+        "density": 2400.0
+      }
+    ]
+  },
+  "H 사일런트홈 시스템 Ⅲ": {
+    "source": "builtin",
+    "cert_no": "제22-14호",
+    "grade": {
+      "tapping": 1,
+      "ball": 1
+    },
+    "slab": {
+      "thickness": 210.0,
+      "strength": 24.0,
+      "density": 2300.0
+    },
+    "elastic": {
+      "thickness": 40.0,
+      "dynamic_stiffness": 1.8,
+      "dynamic_stiffness_measured_min": null,
+      "dynamic_stiffness_measured_max": null,
+      "loss_factor": 0.2,
+      "loss_factor_measured_min": null,
+      "loss_factor_measured_max": null
+    },
+    "subslab_layers": [],
+    "floating_layers": [
+      {
+        "name": "1차 고밀도 마감모르타르",
+        "thickness": 60.0,
+        "strength": 22.1,
+        "density": 2400.0
+      },
+      {
+        "name": "2차 고밀도 마감모르타르",
+        "thickness": 40.0,
+        "strength": 19.6,
+        "density": 2400.0
+      }
+    ]
+  },
+  "H 사일런트홈 시스템 Ⅳ": {
+    "source": "builtin",
+    "cert_no": "제22-15호",
+    "grade": {
+      "tapping": 1,
+      "ball": 1
+    },
+    "slab": {
+      "thickness": 210.0,
+      "strength": 24.0,
+      "density": 2300.0
+    },
+    "elastic": {
+      "thickness": 40.0,
+      "dynamic_stiffness": 1.8,
+      "dynamic_stiffness_measured_min": null,
+      "dynamic_stiffness_measured_max": null,
+      "loss_factor": 0.2,
+      "loss_factor_measured_min": null,
+      "loss_factor_measured_max": null
+    },
+    "subslab_layers": [],
+    "floating_layers": [
+      {
+        "name": "1차 고밀도 마감모르타르",
+        "thickness": 30.0,
+        "strength": 16.0,
+        "density": 2400.0
+      },
+      {
+        "name": "2차 고밀도 마감모르타르",
+        "thickness": 40.0,
+        "strength": 17.5,
+        "density": 2400.0
+      }
+    ]
+  },
+  "H 사일런트홈 시스템 Ⅳ-A": {
+    "source": "builtin",
+    "cert_no": "제22-16호",
+    "grade": {
+      "tapping": 1,
+      "ball": 1
+    },
+    "slab": {
+      "thickness": 210.0,
+      "strength": 24.0,
+      "density": 2300.0
+    },
+    "elastic": {
+      "thickness": 40.0,
+      "dynamic_stiffness": 1.8,
+      "dynamic_stiffness_measured_min": null,
+      "dynamic_stiffness_measured_max": null,
+      "loss_factor": 0.2,
+      "loss_factor_measured_min": null,
+      "loss_factor_measured_max": null
+    },
+    "subslab_layers": [],
+    "floating_layers": [
+      {
+        "name": "1차 고밀도 마감모르타르",
+        "thickness": 30.0,
+        "strength": 16.0,
+        "density": 2400.0
+      },
+      {
+        "name": "2차 고밀도 마감모르타르",
+        "thickness": 40.0,
+        "strength": 17.5,
+        "density": 2400.0
+      }
+    ]
+  },
+  "H 사일런트홈 시스템 Ⅴ": {
+    "source": "builtin",
+    "cert_no": "제22-17호",
+    "grade": {
+      "tapping": 1,
+      "ball": 1
+    },
+    "slab": {
+      "thickness": 210.0,
+      "strength": 24.0,
+      "density": 2300.0
+    },
+    "elastic": {
+      "thickness": 40.0,
+      "dynamic_stiffness": 1.8,
+      "dynamic_stiffness_measured_min": null,
+      "dynamic_stiffness_measured_max": null,
+      "loss_factor": 0.2,
+      "loss_factor_measured_min": null,
+      "loss_factor_measured_max": null
+    },
+    "subslab_layers": [],
+    "floating_layers": [
+      {
+        "name": "경량기포콘크리트",
+        "thickness": 30.0,
+        "strength": 1.5,
+        "density": 500.0
+      },
+      {
+        "name": "고밀도 마감모르타르",
+        "thickness": 40.0,
+        "strength": 19.9,
+        "density": 2400.0
+      }
+    ]
+  },
+  "H 사일런트홈 시스템 Ⅴ-A": {
+    "source": "builtin",
+    "cert_no": "제22-18호",
+    "grade": {
+      "tapping": 1,
+      "ball": 2
+    },
+    "slab": {
+      "thickness": 210.0,
+      "strength": 24.0,
+      "density": 2300.0
+    },
+    "elastic": {
+      "thickness": 40.0,
+      "dynamic_stiffness": 1.8,
+      "dynamic_stiffness_measured_min": null,
+      "dynamic_stiffness_measured_max": null,
+      "loss_factor": 0.2,
+      "loss_factor_measured_min": null,
+      "loss_factor_measured_max": null
+    },
+    "subslab_layers": [],
+    "floating_layers": [
+      {
+        "name": "경량기포콘크리트",
+        "thickness": 30.0,
+        "strength": 1.5,
+        "density": 500.0
+      },
+      {
+        "name": "고밀도 마감모르타르",
+        "thickness": 40.0,
+        "strength": 19.9,
+        "density": 2400.0
+      }
+    ]
+  },
+  "리얼플로팅시스 210L": {
+    "source": "builtin",
+    "cert_no": "제22-19호",
+    "grade": {
+      "tapping": 3,
+      "ball": 4
+    },
+    "slab": {
+      "thickness": 210.0,
+      "strength": 24.0,
+      "density": 2300.0
+    },
+    "elastic": {
+      "thickness": 37.0,
+      "dynamic_stiffness": 6.4,
+      "dynamic_stiffness_measured_min": null,
+      "dynamic_stiffness_measured_max": null,
+      "loss_factor": 0.2,
+      "loss_factor_measured_min": null,
+      "loss_factor_measured_max": null
+    },
+    "subslab_layers": [],
+    "floating_layers": [
+      {
+        "name": "1차 모르타르",
+        "thickness": 33.0,
+        "strength": 14.9,
+        "density": 2100.0
+      },
+      {
+        "name": "2차 모르타르",
+        "thickness": 40.0,
+        "strength": 13.5,
+        "density": 2100.0
+      }
+    ]
+  },
+  "DI-JS SYSTEM 120-1": {
+    "source": "builtin",
+    "cert_no": "제22-20호",
+    "grade": {
+      "tapping": 2,
+      "ball": 4
+    },
+    "slab": {
+      "thickness": 120.0,
+      "strength": 24.0,
+      "density": 2300.0
+    },
+    "elastic": {
+      "thickness": 40.0,
+      "dynamic_stiffness": 12.6,
+      "dynamic_stiffness_measured_min": null,
+      "dynamic_stiffness_measured_max": null,
+      "loss_factor": 0.2,
+      "loss_factor_measured_min": null,
+      "loss_factor_measured_max": null
+    },
+    "subslab_layers": [],
+    "floating_layers": [
+      {
+        "name": "경량기포콘크리트",
+        "thickness": 30.0,
+        "strength": 1.4,
+        "density": 500.0
+      },
+      {
+        "name": "마감모르타르",
+        "thickness": 40.0,
+        "strength": 13.5,
+        "density": 2100.0
+      }
+    ]
+  },
+  "DI-DW-P401": {
+    "source": "builtin",
+    "cert_no": "제22-21호",
+    "grade": {
+      "tapping": 1,
+      "ball": 4
+    },
+    "slab": {
+      "thickness": 120.0,
+      "strength": 24.0,
+      "density": 2300.0
+    },
+    "elastic": {
+      "thickness": 40.0,
+      "dynamic_stiffness": 18.8,
+      "dynamic_stiffness_measured_min": null,
+      "dynamic_stiffness_measured_max": null,
+      "loss_factor": 0.2,
+      "loss_factor_measured_min": null,
+      "loss_factor_measured_max": null
+    },
+    "subslab_layers": [],
+    "floating_layers": [
+      {
+        "name": "마감 모르타르",
+        "thickness": 70.0,
+        "strength": 13.7,
+        "density": 2100.0
+      }
+    ]
+  },
+  "리얼플로팅시스 150H": {
+    "source": "builtin",
+    "cert_no": "제22-22호",
+    "grade": {
+      "tapping": 1,
+      "ball": 4
+    },
+    "slab": {
+      "thickness": 150.0,
+      "strength": 24.0,
+      "density": 2300.0
+    },
+    "elastic": {
+      "thickness": 37.0,
+      "dynamic_stiffness": 6.4,
+      "dynamic_stiffness_measured_min": null,
+      "dynamic_stiffness_measured_max": null,
+      "loss_factor": 0.2,
+      "loss_factor_measured_min": null,
+      "loss_factor_measured_max": null
+    },
+    "subslab_layers": [],
+    "floating_layers": [
+      {
+        "name": "1차 모르타르",
+        "thickness": 33.0,
+        "strength": 18.4,
+        "density": 2300.0
+      },
+      {
+        "name": "2차 모르타르",
+        "thickness": 40.0,
+        "strength": 17.0,
+        "density": 2300.0
+      }
+    ]
+  },
+  "리얼플로팅시스 210H": {
+    "source": "builtin",
+    "cert_no": "제22-24호",
+    "grade": {
+      "tapping": 1,
+      "ball": 4
+    },
+    "slab": {
+      "thickness": 210.0,
+      "strength": 24.0,
+      "density": 2300.0
+    },
+    "elastic": {
+      "thickness": 37.0,
+      "dynamic_stiffness": 6.4,
+      "dynamic_stiffness_measured_min": null,
+      "dynamic_stiffness_measured_max": null,
+      "loss_factor": 0.2,
+      "loss_factor_measured_min": null,
+      "loss_factor_measured_max": null
+    },
+    "subslab_layers": [],
+    "floating_layers": [
+      {
+        "name": "1차 모르타르",
+        "thickness": 33.0,
+        "strength": 19.9,
+        "density": 2300.0
+      },
+      {
+        "name": "완충재",
+        "thickness": 40.0,
+        "strength": 19.0,
+        "density": 2300.0
+      }
+    ]
+  },
+  "GSIP-DMN1-110A": {
+    "source": "builtin",
+    "cert_no": "제22-25호",
+    "grade": {
+      "tapping": 1,
+      "ball": 4
+    },
+    "slab": {
+      "thickness": 210.0,
+      "strength": 24.0,
+      "density": 2300.0
+    },
+    "elastic": {
+      "thickness": 40.0,
+      "dynamic_stiffness": 10.2,
+      "dynamic_stiffness_measured_min": null,
+      "dynamic_stiffness_measured_max": null,
+      "loss_factor": 0.2,
+      "loss_factor_measured_min": null,
+      "loss_factor_measured_max": null
+    },
+    "subslab_layers": [],
+    "floating_layers": [
+      {
+        "name": "완충모르타르",
+        "thickness": 30.0,
+        "strength": 14.7,
+        "density": 2100.0
+      },
+      {
+        "name": "마감모르타르",
+        "thickness": 40.0,
+        "strength": 14.7,
+        "density": 2100.0
+      }
+    ]
+  },
+  "GSIP-DMH1-110A": {
+    "source": "builtin",
+    "cert_no": "제22-27호",
+    "grade": {
+      "tapping": 2,
+      "ball": 4
+    },
+    "slab": {
+      "thickness": 210.0,
+      "strength": 24.0,
+      "density": 2300.0
+    },
+    "elastic": {
+      "thickness": 40.0,
+      "dynamic_stiffness": 10.9,
+      "dynamic_stiffness_measured_min": null,
+      "dynamic_stiffness_measured_max": null,
+      "loss_factor": 0.2,
+      "loss_factor_measured_min": null,
+      "loss_factor_measured_max": null
+    },
+    "subslab_layers": [],
+    "floating_layers": [
+      {
+        "name": "완충모르타르",
+        "thickness": 30.0,
+        "strength": 17.4,
+        "density": 2300.0
+      },
+      {
+        "name": "마감모르타르",
+        "thickness": 40.0,
+        "strength": 17.1,
+        "density": 2300.0
+      }
+    ]
+  },
+  "Z-dB Ⅴ": {
+    "source": "builtin",
+    "cert_no": "제22-29호",
+    "grade": {
+      "tapping": 1,
+      "ball": 3
+    },
+    "slab": {
+      "thickness": 210.0,
+      "strength": 24.0,
+      "density": 2300.0
+    },
+    "elastic": {
+      "thickness": 40.0,
+      "dynamic_stiffness": 12.0,
+      "dynamic_stiffness_measured_min": null,
+      "dynamic_stiffness_measured_max": null,
+      "loss_factor": 0.2,
+      "loss_factor_measured_min": null,
+      "loss_factor_measured_max": null
+    },
+    "subslab_layers": [],
+    "floating_layers": [
+      {
+        "name": "1차 모르타르",
+        "thickness": 30.0,
+        "strength": 18.2,
+        "density": 2100.0
+      },
+      {
+        "name": "마감모르타르",
+        "thickness": 40.0,
+        "strength": 18.3,
+        "density": 2100.0
+      }
+    ]
+  },
+  "노이즈블럭 PO35": {
+    "source": "builtin",
+    "cert_no": "제22-31호",
+    "grade": {
+      "tapping": 1,
+      "ball": 3
+    },
+    "slab": {
+      "thickness": 210.0,
+      "strength": 24.0,
+      "density": 2300.0
+    },
+    "elastic": {
+      "thickness": 35.0,
+      "dynamic_stiffness": 13.3,
+      "dynamic_stiffness_measured_min": null,
+      "dynamic_stiffness_measured_max": null,
+      "loss_factor": 0.2,
+      "loss_factor_measured_min": null,
+      "loss_factor_measured_max": null
+    },
+    "subslab_layers": [],
+    "floating_layers": [
+      {
+        "name": "1차 모르타르",
+        "thickness": 35.0,
+        "strength": 19.2,
+        "density": 2100.0
+      },
+      {
+        "name": "마감 모르타르",
+        "thickness": 40.0,
+        "strength": 24.9,
+        "density": 2300.0
+      }
+    ]
+  },
+  "Anwoollim-PS1-210": {
+    "source": "builtin",
+    "cert_no": "제22-32호",
+    "grade": {
+      "tapping": 2,
+      "ball": 4
+    },
+    "slab": {
+      "thickness": 210.0,
+      "strength": 24.0,
+      "density": 2300.0
+    },
+    "elastic": {
+      "thickness": 30,
+      "dynamic_stiffness": 12.9,
+      "dynamic_stiffness_measured_min": null,
+      "dynamic_stiffness_measured_max": null,
+      "loss_factor": 0.2,
+      "loss_factor_measured_min": null,
+      "loss_factor_measured_max": null
+    },
+    "subslab_layers": [],
+    "floating_layers": [
+      {
+        "name": "마감모르타르",
+        "thickness": 80.0,
+        "strength": 13.4,
+        "density": 2100.0
+      }
+    ]
+  },
+  "Anwoollim-PS2-210": {
+    "source": "builtin",
+    "cert_no": "제22-33호",
+    "grade": {
+      "tapping": 1,
+      "ball": 4
+    },
+    "slab": {
+      "thickness": 210.0,
+      "strength": 24.0,
+      "density": 2300.0
+    },
+    "elastic": {
+      "thickness": 30,
+      "dynamic_stiffness": 24.9,
+      "dynamic_stiffness_measured_min": null,
+      "dynamic_stiffness_measured_max": null,
+      "loss_factor": 0.2,
+      "loss_factor_measured_min": null,
+      "loss_factor_measured_max": null
+    },
+    "subslab_layers": [],
+    "floating_layers": [
+      {
+        "name": "마감모르타르",
+        "thickness": 80.0,
+        "strength": 29,
+        "density": 2300.0
+      }
+    ]
+  },
+  "Anwoollim-EV1-210": {
+    "source": "builtin",
+    "cert_no": "제22-34호",
+    "grade": {
+      "tapping": 1,
+      "ball": 3
+    },
+    "slab": {
+      "thickness": 210.0,
+      "strength": 24.0,
+      "density": 2300.0
+    },
+    "elastic": {
+      "thickness": 35,
+      "dynamic_stiffness": 14.1,
+      "dynamic_stiffness_measured_min": null,
+      "dynamic_stiffness_measured_max": null,
+      "loss_factor": 0.2,
+      "loss_factor_measured_min": null,
+      "loss_factor_measured_max": null
+    },
+    "subslab_layers": [],
+    "floating_layers": [
+      {
+        "name": "마감모르타르",
+        "thickness": 75.0,
+        "strength": 13.5,
+        "density": 2100.0
+      }
+    ]
+  },
+  "Anwoollim-EV2-210": {
+    "source": "builtin",
+    "cert_no": "제22-35호",
+    "grade": {
+      "tapping": 1,
+      "ball": 3
+    },
+    "slab": {
+      "thickness": 210.0,
+      "strength": 24.0,
+      "density": 2300.0
+    },
+    "elastic": {
+      "thickness": 35,
+      "dynamic_stiffness": 16.8,
+      "dynamic_stiffness_measured_min": null,
+      "dynamic_stiffness_measured_max": null,
+      "loss_factor": 0.2,
+      "loss_factor_measured_min": null,
+      "loss_factor_measured_max": null
+    },
+    "subslab_layers": [],
+    "floating_layers": [
+      {
+        "name": "마감모르타르",
+        "thickness": 75.0,
+        "strength": 13.5,
+        "density": 2100.0
+      }
+    ]
+  },
+  "L9-DLAS4-210": {
+    "source": "builtin",
+    "cert_no": "제23-01호",
+    "grade": {
+      "tapping": 1,
+      "ball": 2
+    },
+    "slab": {
+      "thickness": 210.0,
+      "strength": 24.0,
+      "density": 2300.0
+    },
+    "elastic": {
+      "thickness": 40,
+      "dynamic_stiffness": 10.2,
+      "dynamic_stiffness_measured_min": null,
+      "dynamic_stiffness_measured_max": null,
+      "loss_factor": 0.2,
+      "loss_factor_measured_min": null,
+      "loss_factor_measured_max": null
+    },
+    "subslab_layers": [
+      {
+        "name": "기초모르타르(HD)",
+        "thickness": 50.0,
+        "strength": 16.2,
+        "density": 2300.0
+      }
+    ],
+    "floating_layers": [
+      {
+        "name": "마감모르타르(HD)",
+        "thickness": 50.0,
+        "strength": 16.4,
+        "density": 2300.0
+      },
+      {
+        "name": "치장목질마루판",
+        "thickness": 7.5,
+        "strength": 2.0,
+        "density": 1200.0
+      }
+    ]
+  },
+  "L9-DLAS5-210": {
+    "source": "builtin",
+    "cert_no": "제23-02호",
+    "grade": {
+      "tapping": 1,
+      "ball": 3
+    },
+    "slab": {
+      "thickness": 210.0,
+      "strength": 24.0,
+      "density": 2300.0
+    },
+    "elastic": {
+      "thickness": 40,
+      "dynamic_stiffness": 10.2,
+      "dynamic_stiffness_measured_min": null,
+      "dynamic_stiffness_measured_max": null,
+      "loss_factor": 0.2,
+      "loss_factor_measured_min": null,
+      "loss_factor_measured_max": null
+    },
+    "subslab_layers": [
+      {
+        "name": "기초모르타르(HD)",
+        "thickness": 30.0,
+        "strength": 16.2,
+        "density": 2300.0
+      }
+    ],
+    "floating_layers": [
+      {
+        "name": "마감모르타르(HD)",
+        "thickness": 50.0,
+        "strength": 16.4,
+        "density": 2300.0
+      }
+    ]
+  },
+  "KR완충재-S": {
+    "source": "builtin",
+    "cert_no": "제23-03호",
+    "grade": {
+      "tapping": 2,
+      "ball": 4
+    },
+    "slab": {
+      "thickness": 210.0,
+      "strength": 24.0,
+      "density": 2300.0
+    },
+    "elastic": {
+      "thickness": 67.0,
+      "dynamic_stiffness": 3.3,
+      "dynamic_stiffness_measured_min": null,
+      "dynamic_stiffness_measured_max": null,
+      "loss_factor": 0.2,
+      "loss_factor_measured_min": null,
+      "loss_factor_measured_max": null
+    },
+    "subslab_layers": [],
+    "floating_layers": [
+      {
+        "name": "마감모르타르",
+        "thickness": 43.0,
+        "strength": 22.3,
+        "density": 2100.0
+      }
+    ]
+  },
+  "소닉스 U30-2": {
+    "source": "builtin",
+    "cert_no": "제23-04호",
+    "grade": {
+      "tapping": 1,
+      "ball": 2
+    },
+    "slab": {
+      "thickness": 210.0,
+      "strength": 24.0,
+      "density": 2300.0
+    },
+    "elastic": {
+      "thickness": 30.0,
+      "dynamic_stiffness": 19.1,
+      "dynamic_stiffness_measured_min": null,
+      "dynamic_stiffness_measured_max": null,
+      "loss_factor": 0.2,
+      "loss_factor_measured_min": null,
+      "loss_factor_measured_max": null
+    },
+    "subslab_layers": [],
+    "floating_layers": [
+      {
+        "name": "1차모르타르",
+        "thickness": 40.0,
+        "strength": 13.7,
+        "density": 2100.0
+      },
+      {
+        "name": "마감모르타르",
+        "thickness": 40.0,
+        "strength": 14.1,
+        "density": 2100.0
+      }
+    ]
+  },
+  "BM30": {
+    "source": "builtin",
+    "cert_no": "제23-05호",
+    "grade": {
+      "tapping": 1,
+      "ball": 4
+    },
+    "slab": {
+      "thickness": 210.0,
+      "strength": 24.0,
+      "density": 2300.0
+    },
+    "elastic": {
+      "thickness": 30.0,
+      "dynamic_stiffness": 9.7,
+      "dynamic_stiffness_measured_min": null,
+      "dynamic_stiffness_measured_max": null,
+      "loss_factor": 0.2,
+      "loss_factor_measured_min": null,
+      "loss_factor_measured_max": null
+    },
+    "subslab_layers": [],
+    "floating_layers": [
+      {
+        "name": "SW기포몰탈",
+        "thickness": 30.0,
+        "strength": 5.5,
+        "density": 1.513
+      },
+      {
+        "name": "마감모르타르",
+        "thickness": 50.0,
+        "strength": 10.2,
+        "density": 2100.0
+      }
+    ]
+  },
+  "JS SYSTEM I-1": {
+    "source": "builtin",
+    "cert_no": "제23-06호",
+    "grade": {
+      "tapping": 2,
+      "ball": 4
+    },
+    "slab": {
+      "thickness": 210.0,
+      "strength": 24.0,
+      "density": 2300.0
+    },
+    "elastic": {
+      "thickness": 30.0,
+      "dynamic_stiffness": 28.2,
+      "dynamic_stiffness_measured_min": null,
+      "dynamic_stiffness_measured_max": null,
+      "loss_factor": 0.2,
+      "loss_factor_measured_min": null,
+      "loss_factor_measured_max": null
+    },
+    "subslab_layers": [],
+    "floating_layers": [
+      {
+        "name": "경량기포콘크리트",
+        "thickness": 40.0,
+        "strength": 1.5,
+        "density": 500.0
+      },
+      {
+        "name": "마감모르타르",
+        "thickness": 40.0,
+        "strength": 13.8,
+        "density": 2100.0
+      }
+    ]
+  },
+  "논노-PU4260": {
+    "source": "builtin",
+    "cert_no": "제23-07호",
+    "grade": {
+      "tapping": 1,
+      "ball": 3
+    },
+    "slab": {
+      "thickness": 210,
+      "strength": 24,
+      "density": 2300
+    },
+    "elastic": {
+      "thickness": 60,
+      "dynamic_stiffness": 5.9,
+      "dynamic_stiffness_measured_min": null,
+      "dynamic_stiffness_measured_max": null,
+      "loss_factor": 0.2,
+      "loss_factor_measured_min": null,
+      "loss_factor_measured_max": null
+    },
+    "subslab_layers": [],
+    "floating_layers": [
+      {
+        "name": "마감모르타르",
+        "thickness": 50,
+        "strength": 14.0,
+        "density": 2100
+      }
+    ]
+  },
+  "소닉스 U30 시스템": {
+    "source": "builtin",
+    "cert_no": "제23-08호",
+    "grade": {
+      "tapping": 1,
+      "ball": 2
+    },
+    "slab": {
+      "thickness": 210,
+      "strength": 24,
+      "density": 2300
+    },
+    "elastic": {
+      "thickness": 30,
+      "dynamic_stiffness": 19.1,
+      "dynamic_stiffness_measured_min": 4.5,
+      "dynamic_stiffness_measured_max": 4.7,
+      "loss_factor": 0.2,
+      "loss_factor_measured_min": 0.13,
+      "loss_factor_measured_max": 0.14
+    },
+    "subslab_layers": [],
+    "floating_layers": [
+      {
+        "name": "경량기포콘크리트",
+        "thickness": 40,
+        "strength": 1.8,
+        "density": 500
+      },
+      {
+        "name": "마감모르타르",
+        "thickness": 40,
+        "strength": 14.4,
+        "density": 2100
+      }
+    ]
+  },
+  "JS SYSTEM S-1": {
+    "source": "builtin",
+    "cert_no": "제23-09호",
+    "grade": {
+      "tapping": 1,
+      "ball": 4
+    },
+    "slab": {
+      "thickness": 210.0,
+      "strength": 24.0,
+      "density": 2300.0
+    },
+    "elastic": {
+      "thickness": 30.0,
+      "dynamic_stiffness": 21.7,
+      "dynamic_stiffness_measured_min": null,
+      "dynamic_stiffness_measured_max": null,
+      "loss_factor": 0.2,
+      "loss_factor_measured_min": null,
+      "loss_factor_measured_max": null
+    },
+    "subslab_layers": [],
+    "floating_layers": [
+      {
+        "name": "경량기포콘크리트",
+        "thickness": 40.0,
+        "strength": 1.5,
+        "density": 500.0
+      },
+      {
+        "name": "마감모르타르",
+        "thickness": 40.0,
+        "strength": 13.6,
+        "density": 2100.0
+      }
+    ]
+  },
+  "L10-DLAS6P-210": {
+    "source": "builtin",
+    "cert_no": "제23-10호",
+    "grade": {
+      "tapping": 1,
+      "ball": 2
+    },
+    "slab": {
+      "thickness": 210.0,
+      "strength": 24.0,
+      "density": 2300.0
+    },
+    "elastic": {
+      "thickness": 50,
+      "dynamic_stiffness": 12.9,
+      "dynamic_stiffness_measured_min": null,
+      "dynamic_stiffness_measured_max": null,
+      "loss_factor": 0.2,
+      "loss_factor_measured_min": null,
+      "loss_factor_measured_max": null
+    },
+    "subslab_layers": [
+      {
+        "name": "기초모르타르_HD)",
+        "thickness": 30.0,
+        "strength": 19.9,
+        "density": 2300.0
+      }
+    ],
+    "floating_layers": [
+      {
+        "name": "마감모르타르(HD)",
+        "thickness": 50.0,
+        "strength": 19.0,
+        "density": 2300.0
+      },
+      {
+        "name": "치장목질마루판",
+        "thickness": 7.5,
+        "strength": 2.0,
+        "density": 1200.0
+      }
+    ]
+  },
+  "L10-DLAS7-210": {
+    "source": "builtin",
+    "cert_no": "제23-11호",
+    "grade": {
+      "tapping": 1,
+      "ball": 2
+    },
+    "slab": {
+      "thickness": 210.0,
+      "strength": 24.0,
+      "density": 2300.0
+    },
+    "elastic": {
+      "thickness": 50,
+      "dynamic_stiffness": 13.1,
+      "dynamic_stiffness_measured_min": null,
+      "dynamic_stiffness_measured_max": null,
+      "loss_factor": 0.2,
+      "loss_factor_measured_min": null,
+      "loss_factor_measured_max": null
+    },
+    "subslab_layers": [
+      {
+        "name": "기초모르타르(HD)",
+        "thickness": 30.0,
+        "strength": 19.9,
+        "density": 2300.0
+      }
+    ],
+    "floating_layers": [
+      {
+        "name": "마감모르타르(HD)",
+        "thickness": 50.0,
+        "strength": 19.0,
+        "density": 2300.0
+      },
+      {
+        "name": "치장목질마루판",
+        "thickness": 7.5,
+        "strength": 2.0,
+        "density": 1200.0
+      }
+    ]
+  },
+  "L1-HB40B2-210": {
+    "source": "builtin",
+    "cert_no": "제23-12호",
+    "grade": {
+      "tapping": 1,
+      "ball": 3
+    },
+    "slab": {
+      "thickness": 210.0,
+      "strength": 24.0,
+      "density": 2300.0
+    },
+    "elastic": {
+      "thickness": 40,
+      "dynamic_stiffness": 10.8,
+      "dynamic_stiffness_measured_min": null,
+      "dynamic_stiffness_measured_max": null,
+      "loss_factor": 0.2,
+      "loss_factor_measured_min": null,
+      "loss_factor_measured_max": null
+    },
+    "subslab_layers": [
+      {
+        "name": "기초모르타르(HD)",
+        "thickness": 30.0,
+        "strength": 14.2,
+        "density": 2300.0
+      }
+    ],
+    "floating_layers": [
+      {
+        "name": "마감모르타르(HD)",
+        "thickness": 50.0,
+        "strength": 12.8,
+        "density": 2300.0
+      }
+    ]
+  },
+  "L10-HB60B4-210": {
+    "source": "builtin",
+    "cert_no": "제23-13호",
+    "grade": {
+      "tapping": 1,
+      "ball": 3
+    },
+    "slab": {
+      "thickness": 210.0,
+      "strength": 24.0,
+      "density": 2300.0
+    },
+    "elastic": {
+      "thickness": 60,
+      "dynamic_stiffness": 10.8,
+      "dynamic_stiffness_measured_min": 5.9,
+      "dynamic_stiffness_measured_max": 6.5,
+      "loss_factor": 0.2,
+      "loss_factor_measured_min": 0.07,
+      "loss_factor_measured_max": 0.07
+    },
+    "subslab_layers": [],
+    "floating_layers": [
+      {
+        "name": "마감모르타르",
+        "thickness": 50.0,
+        "strength": 12.8,
+        "density": 2100.0
+      }
+    ]
+  },
+  "Anwoollim-Reo-210": {
+    "source": "builtin",
+    "cert_no": "제23-14호",
+    "grade": {
+      "tapping": 2,
+      "ball": 4
+    },
+    "slab": {
+      "thickness": 210.0,
+      "strength": 24.0,
+      "density": 2300.0
+    },
+    "elastic": {
+      "thickness": 35,
+      "dynamic_stiffness": 14.7,
+      "dynamic_stiffness_measured_min": 14.5,
+      "dynamic_stiffness_measured_max": 14.5,
+      "loss_factor": 0.2,
+      "loss_factor_measured_min": 0.12,
+      "loss_factor_measured_max": 0.12
+    },
+    "subslab_layers": [],
+    "floating_layers": [
+      {
+        "name": "마감모르타르",
+        "thickness": 75.0,
+        "strength": 13.4,
+        "density": 2100.0
+      }
+    ]
+  },
+  "AnwoollimH-Reo-SP1": {
+    "source": "builtin",
+    "cert_no": "제23-15호",
+    "grade": {
+      "tapping": 4,
+      "ball": 4
+    },
+    "slab": {
+      "thickness": 210.0,
+      "strength": 24.0,
+      "density": 2300.0
+    },
+    "elastic": {
+      "thickness": 30.0,
+      "dynamic_stiffness": 23.2,
+      "dynamic_stiffness_measured_min": null,
+      "dynamic_stiffness_measured_max": null,
+      "loss_factor": 0.2,
+      "loss_factor_measured_min": null,
+      "loss_factor_measured_max": null
+    },
+    "subslab_layers": [],
+    "floating_layers": [
+      {
+        "name": "경량기포콘크리트",
+        "thickness": 30.0,
+        "strength": 3.4,
+        "density": 500.0
+      },
+      {
+        "name": "마감모르타르",
+        "thickness": 40.0,
+        "strength": 13.4,
+        "density": 2100.0
+      }
+    ]
+  },
+  "HS-SOUMLESS": {
+    "source": "builtin",
+    "cert_no": "제23-16호",
+    "grade": {
+      "tapping": 1,
+      "ball": 2
+    },
+    "slab": {
+      "thickness": 210.0,
+      "strength": 24.0,
+      "density": 2300.0
+    },
+    "elastic": {
+      "thickness": 70,
+      "dynamic_stiffness": 2.8,
+      "dynamic_stiffness_measured_min": null,
+      "dynamic_stiffness_measured_max": null,
+      "loss_factor": 0.2,
+      "loss_factor_measured_min": null,
+      "loss_factor_measured_max": null
+    },
+    "subslab_layers": [],
+    "floating_layers": [
+      {
+        "name": "마감모르타르",
+        "thickness": 40.0,
+        "strength": 19.5,
+        "density": 2100.0
+      }
+    ]
+  },
+  "TV-SILENCE": {
+    "source": "builtin",
+    "cert_no": "제23-17호",
+    "grade": {
+      "tapping": 1,
+      "ball": 2
+    },
+    "slab": {
+      "thickness": 210.0,
+      "strength": 24.0,
+      "density": 2300.0
+    },
+    "elastic": {
+      "thickness": 70,
+      "dynamic_stiffness": 3.0,
+      "dynamic_stiffness_measured_min": 2.5,
+      "dynamic_stiffness_measured_max": 2.8,
+      "loss_factor": 0.2,
+      "loss_factor_measured_min": 0.17,
+      "loss_factor_measured_max": 0.33
+    },
+    "subslab_layers": [],
+    "floating_layers": [
+      {
+        "name": "마감모르타르",
+        "thickness": 40.0,
+        "strength": 19.5,
+        "density": 2100.0
+      }
+    ]
+  },
+  "AnwoollimH-Reo-SP2": {
+    "source": "builtin",
+    "cert_no": "제23-18호",
+    "grade": {
+      "tapping": 1,
+      "ball": 2
+    },
+    "slab": {
+      "thickness": 210.0,
+      "strength": 24.0,
+      "density": 2300.0
+    },
+    "elastic": {
+      "thickness": 30.0,
+      "dynamic_stiffness": 21.0,
+      "dynamic_stiffness_measured_min": null,
+      "dynamic_stiffness_measured_max": null,
+      "loss_factor": 0.2,
+      "loss_factor_measured_min": null,
+      "loss_factor_measured_max": null
+    },
+    "subslab_layers": [
+      {
+        "name": "기초모르타르",
+        "thickness": 30.0,
+        "strength": 24.4,
+        "density": 2300.0
+      }
+    ],
+    "floating_layers": [
+      {
+        "name": "마감모르타르",
+        "thickness": 70.0,
+        "strength": 29.8,
+        "density": 2300.0
+      }
+    ]
+  },
+  "SGO-V1 System": {
+    "source": "builtin",
+    "cert_no": "제23-19호",
+    "grade": {
+      "tapping": 1,
+      "ball": 4
+    },
+    "slab": {
+      "thickness": 250.0,
+      "strength": 24.0,
+      "density": 2300.0
+    },
+    "elastic": {
+      "thickness": 60,
+      "dynamic_stiffness": 10.4,
+      "dynamic_stiffness_measured_min": null,
+      "dynamic_stiffness_measured_max": null,
+      "loss_factor": 0.2,
+      "loss_factor_measured_min": null,
+      "loss_factor_measured_max": null
+    },
+    "subslab_layers": [],
+    "floating_layers": [
+      {
+        "name": "마감모르타르",
+        "thickness": 50.0,
+        "strength": 21.5,
+        "density": 2300.0
+      }
+    ]
+  },
+  "SGO-V2 System": {
+    "source": "builtin",
+    "cert_no": "제23-20호",
+    "grade": {
+      "tapping": 1,
+      "ball": 2
+    },
+    "slab": {
+      "thickness": 250.0,
+      "strength": 24.0,
+      "density": 2300.0
+    },
+    "elastic": {
+      "thickness": 71.5,
+      "dynamic_stiffness": 14.9,
+      "dynamic_stiffness_measured_min": null,
+      "dynamic_stiffness_measured_max": null,
+      "loss_factor": 0.2,
+      "loss_factor_measured_min": null,
+      "loss_factor_measured_max": null
+    },
+    "subslab_layers": [],
+    "floating_layers": [
+      {
+        "name": "마감모르타르",
+        "thickness": 50.0,
+        "strength": 21.5,
+        "density": 2100.0
+      }
+    ]
+  },
+  "L11-SIB30D-210": {
+    "source": "builtin",
+    "cert_no": "제24-01호",
+    "grade": {
+      "tapping": 1,
+      "ball": 4
+    },
+    "slab": {
+      "thickness": 210.0,
+      "strength": 24.0,
+      "density": 2300.0
+    },
+    "elastic": {
+      "thickness": 30.0,
+      "dynamic_stiffness": 16.8,
+      "dynamic_stiffness_measured_min": null,
+      "dynamic_stiffness_measured_max": null,
+      "loss_factor": 0.2,
+      "loss_factor_measured_min": null,
+      "loss_factor_measured_max": null
+    },
+    "subslab_layers": [],
+    "floating_layers": [
+      {
+        "name": "경량기포콘크리트",
+        "thickness": 40.0,
+        "strength": 1.5,
+        "density": 500.0
+      },
+      {
+        "name": "마감모르타르",
+        "thickness": 40.0,
+        "strength": 15.3,
+        "density": 2100.0
+      }
+    ]
+  },
+  "L11-EV30A-210": {
+    "source": "builtin",
+    "cert_no": "제24-02호",
+    "grade": {
+      "tapping": 3,
+      "ball": 3
+    },
+    "slab": {
+      "thickness": 210.0,
+      "strength": 24.0,
+      "density": 2300.0
+    },
+    "elastic": {
+      "thickness": 30.0,
+      "dynamic_stiffness": 21.7,
+      "dynamic_stiffness_measured_min": null,
+      "dynamic_stiffness_measured_max": null,
+      "loss_factor": 0.1,
+      "loss_factor_measured_min": null,
+      "loss_factor_measured_max": null
+    },
+    "subslab_layers": [],
+    "floating_layers": [
+      {
+        "name": "경량기포콘크리트",
+        "thickness": 30.0,
+        "strength": 1.5,
+        "density": 500.0
+      },
+      {
+        "name": "마감모르타르",
+        "thickness": 50.0,
+        "strength": 15.3,
+        "density": 2100.0
+      }
+    ]
+  },
+  "논노-PUT480": {
+    "source": "builtin",
+    "cert_no": "제24-03호",
+    "grade": {
+      "tapping": 1,
+      "ball": 2
+    },
+    "slab": {
+      "thickness": 210.0,
+      "strength": 24.0,
+      "density": 2300.0
+    },
+    "elastic": {
+      "thickness": 60.0,
+      "dynamic_stiffness": 5.9,
+      "dynamic_stiffness_measured_min": null,
+      "dynamic_stiffness_measured_max": null,
+      "loss_factor": 0.2,
+      "loss_factor_measured_min": null,
+      "loss_factor_measured_max": null
+    },
+    "subslab_layers": [],
+    "floating_layers": [
+      {
+        "name": "마감모르타르",
+        "thickness": 50.0,
+        "strength": 12.0,
+        "density": 2100.0
+      }
+    ]
+  },
+  "노이즈블럭 DY40": {
+    "source": "builtin",
+    "cert_no": "제24-04호",
+    "grade": {
+      "tapping": 1,
+      "ball": 3
+    },
+    "slab": {
+      "thickness": 210.0,
+      "strength": 24.0,
+      "density": 2300.0
+    },
+    "elastic": {
+      "thickness": 40.0,
+      "dynamic_stiffness": 4.9,
+      "dynamic_stiffness_measured_min": null,
+      "dynamic_stiffness_measured_max": null,
+      "loss_factor": 0.2,
+      "loss_factor_measured_min": null,
+      "loss_factor_measured_max": null
+    },
+    "subslab_layers": [],
+    "floating_layers": [
+      {
+        "name": "경량기포콘크리트",
+        "thickness": 30.0,
+        "strength": 0.9,
+        "density": 500.0
+      },
+      {
+        "name": "마감모르타르",
+        "thickness": 40.0,
+        "strength": 15.3,
+        "density": 2100.0
+      }
+    ]
+  },
+  "Zero Sound Foam-SW301 System (ZSF-SW301 System)": {
+    "source": "builtin",
+    "cert_no": "제24-05호",
+    "grade": {
+      "tapping": 2,
+      "ball": 4
+    },
+    "slab": {
+      "thickness": 210.0,
+      "strength": 24.0,
+      "density": 2300.0
+    },
+    "elastic": {
+      "thickness": 30.0,
+      "dynamic_stiffness": 21.7,
+      "dynamic_stiffness_measured_min": null,
+      "dynamic_stiffness_measured_max": null,
+      "loss_factor": 0.2,
+      "loss_factor_measured_min": null,
+      "loss_factor_measured_max": null
+    },
+    "subslab_layers": [],
+    "floating_layers": [
+      {
+        "name": "1차 모르타르",
+        "thickness": 40.0,
+        "strength": 14.7,
+        "density": 2100.0
+      },
+      {
+        "name": "마감모르타르",
+        "thickness": 40.0,
+        "strength": 14.2,
+        "density": 2100.0
+      }
+    ]
+  },
+  "KR-SP1 SYSTEM": {
+    "source": "builtin",
+    "cert_no": "제24-06호",
+    "grade": {
+      "tapping": 4,
+      "ball": 4
+    },
+    "slab": {
+      "thickness": 210.0,
+      "strength": 24.0,
+      "density": 2300.0
+    },
+    "elastic": {
+      "thickness": 38.0,
+      "dynamic_stiffness": 6.2,
+      "dynamic_stiffness_measured_min": null,
+      "dynamic_stiffness_measured_max": null,
+      "loss_factor": 0.2,
+      "loss_factor_measured_min": null,
+      "loss_factor_measured_max": null
+    },
+    "subslab_layers": [],
+    "floating_layers": [
+      {
+        "name": "경량기포콘크리트",
+        "thickness": 30,
+        "strength": 1.5,
+        "density": 500.0
+      },
+      {
+        "name": "마감모르타르",
+        "thickness": 42.0,
+        "strength": 27.0,
+        "density": 2100.0
+      }
+    ]
+  },
+  "ICS 1호 SYSTEM": {
+    "source": "builtin",
+    "cert_no": "제24-07호",
+    "grade": {
+      "tapping": 3,
+      "ball": 4
+    },
+    "slab": {
+      "thickness": 210.0,
+      "strength": 24.0,
+      "density": 2300.0
+    },
+    "elastic": {
+      "thickness": 70.0,
+      "dynamic_stiffness": 10.0,
+      "dynamic_stiffness_measured_min": null,
+      "dynamic_stiffness_measured_max": null,
+      "loss_factor": 0.2,
+      "loss_factor_measured_min": null,
+      "loss_factor_measured_max": null
+    },
+    "subslab_layers": [],
+    "floating_layers": [
+      {
+        "name": "마감모르타르",
+        "thickness": 50.0,
+        "strength": 19.0,
+        "density": 2100.0
+      }
+    ]
+  },
+  "Anwoollim-SW401 System": {
+    "source": "builtin",
+    "cert_no": "제24-08호",
+    "grade": {
+      "tapping": 1,
+      "ball": 3
+    },
+    "slab": {
+      "thickness": 210.0,
+      "strength": 24.0,
+      "density": 2300.0
+    },
+    "elastic": {
+      "thickness": 40.0,
+      "dynamic_stiffness": 19.7,
+      "dynamic_stiffness_measured_min": null,
+      "dynamic_stiffness_measured_max": null,
+      "loss_factor": 0.2,
+      "loss_factor_measured_min": null,
+      "loss_factor_measured_max": null
+    },
+    "subslab_layers": [],
+    "floating_layers": [
+      {
+        "name": "마감모르타르",
+        "thickness": 70.0,
+        "strength": 12.1,
+        "density": 2100.0
+      }
+    ]
+  },
+  "Anwoollim-DY1": {
+    "source": "builtin",
+    "cert_no": "제24-09호",
+    "grade": {
+      "tapping": 2,
+      "ball": 4
+    },
+    "slab": {
+      "thickness": 210.0,
+      "strength": 24.0,
+      "density": 2300.0
+    },
+    "elastic": {
+      "thickness": 35.0,
+      "dynamic_stiffness": 18.8,
+      "dynamic_stiffness_measured_min": null,
+      "dynamic_stiffness_measured_max": null,
+      "loss_factor": 0.2,
+      "loss_factor_measured_min": null,
+      "loss_factor_measured_max": null
+    },
+    "subslab_layers": [],
+    "floating_layers": [
+      {
+        "name": "마감모르타르",
+        "thickness": 75.0,
+        "strength": 13.8,
+        "density": 2100.0
+      }
+    ]
+  },
+  "Anwoollim-DY2": {
+    "source": "builtin",
+    "cert_no": "제24-10호",
+    "grade": {
+      "tapping": 1,
+      "ball": 3
+    },
+    "slab": {
+      "thickness": 210.0,
+      "strength": 24.0,
+      "density": 2300.0
+    },
+    "elastic": {
+      "thickness": 35.0,
+      "dynamic_stiffness": 4.1,
+      "dynamic_stiffness_measured_min": null,
+      "dynamic_stiffness_measured_max": null,
+      "loss_factor": 0.2,
+      "loss_factor_measured_min": null,
+      "loss_factor_measured_max": null
+    },
+    "subslab_layers": [],
+    "floating_layers": [
+      {
+        "name": "마감모르타르",
+        "thickness": 75.0,
+        "strength": 13.8,
+        "density": 2100.0
+      }
+    ]
+  },
+  "SL-SOUMLESS": {
+    "source": "builtin",
+    "cert_no": "제24-11호",
+    "grade": {
+      "tapping": 1,
+      "ball": 2
+    },
+    "slab": {
+      "thickness": 210.0,
+      "strength": 24.0,
+      "density": 2300.0
+    },
+    "elastic": {
+      "thickness": 65.0,
+      "dynamic_stiffness": 2.5,
+      "dynamic_stiffness_measured_min": 1.8,
+      "dynamic_stiffness_measured_max": 1.8,
+      "loss_factor": 0.2,
+      "loss_factor_measured_min": 0.13,
+      "loss_factor_measured_max": 0.13
+    },
+    "subslab_layers": [],
+    "floating_layers": [
+      {
+        "name": "마감모르타르",
+        "thickness": 45.0,
+        "strength": 13.4,
+        "density": 2100.0
+      }
+    ]
+  },
+  "노이즈 컨트롤 패드 A system": {
+    "source": "builtin",
+    "cert_no": "제24-12호",
+    "grade": {
+      "tapping": 2,
+      "ball": 4
+    },
+    "slab": {
+      "thickness": 210.0,
+      "strength": 24.0,
+      "density": 2300.0
+    },
+    "elastic": {
+      "thickness": 40.0,
+      "dynamic_stiffness": 18.0,
+      "dynamic_stiffness_measured_min": null,
+      "dynamic_stiffness_measured_max": null,
+      "loss_factor": 0.2,
+      "loss_factor_measured_min": null,
+      "loss_factor_measured_max": null
+    },
+    "subslab_layers": [],
+    "floating_layers": [
+      {
+        "name": "1차모르타르",
+        "thickness": 30.0,
+        "strength": 24.4,
+        "density": 2100.0
+      },
+      {
+        "name": "마감모르타르",
+        "thickness": 40.0,
+        "strength": 23.6,
+        "density": 2100.0
+      }
+    ]
+  },
+  "Anwoollim-Reo-150": {
+    "source": "builtin",
+    "cert_no": "제24-13호",
+    "grade": {
+      "tapping": 2,
+      "ball": 4
+    },
+    "slab": {
+      "thickness": 150.0,
+      "strength": 24.0,
+      "density": 2300.0
+    },
+    "elastic": {
+      "thickness": 40.0,
+      "dynamic_stiffness": 25.1,
+      "dynamic_stiffness_measured_min": null,
+      "dynamic_stiffness_measured_max": null,
+      "loss_factor": 0.2,
+      "loss_factor_measured_min": null,
+      "loss_factor_measured_max": null
+    },
+    "subslab_layers": [],
+    "floating_layers": [
+      {
+        "name": "마감모르타르",
+        "thickness": 70.0,
+        "strength": 14.6,
+        "density": 2100.0
+      }
+    ]
+  },
+  "Anwoollim-Reo-GL35": {
+    "source": "builtin",
+    "cert_no": "제24-14호",
+    "grade": {
+      "tapping": 3,
+      "ball": 4
+    },
+    "slab": {
+      "thickness": 210.0,
+      "strength": 24.0,
+      "density": 2300.0
+    },
+    "elastic": {
+      "thickness": 35.0,
+      "dynamic_stiffness": 15.2,
+      "dynamic_stiffness_measured_min": null,
+      "dynamic_stiffness_measured_max": null,
+      "loss_factor": 0.2,
+      "loss_factor_measured_min": null,
+      "loss_factor_measured_max": null
+    },
+    "subslab_layers": [],
+    "floating_layers": [
+      {
+        "name": "마감모르타르",
+        "thickness": 75.0,
+        "strength": 14.5,
+        "density": 2100.0
+      }
+    ]
+  },
+  "GSIP-ME74-F": {
+    "source": "builtin",
+    "cert_no": "제24-15호",
+    "grade": {
+      "tapping": 1,
+      "ball": 3
+    },
+    "slab": {
+      "thickness": 210.0,
+      "strength": 24.0,
+      "density": 2300.0
+    },
+    "elastic": {
+      "thickness": 40.0,
+      "dynamic_stiffness": 12.0,
+      "dynamic_stiffness_measured_min": null,
+      "dynamic_stiffness_measured_max": null,
+      "loss_factor": 0.2,
+      "loss_factor_measured_min": null,
+      "loss_factor_measured_max": null
+    },
+    "subslab_layers": [],
+    "floating_layers": [
+      {
+        "name": "마감모르타르",
+        "thickness": 70.0,
+        "strength": 15.2,
+        "density": 2100.0
+      }
+    ]
+  },
+  "GSIP-MEA74-S": {
+    "source": "builtin",
+    "cert_no": "제24-16호",
+    "grade": {
+      "tapping": 1,
+      "ball": 3
+    },
+    "slab": {
+      "thickness": 210.0,
+      "strength": 24.0,
+      "density": 2300.0
+    },
+    "elastic": {
+      "thickness": 40.0,
+      "dynamic_stiffness": 12.2,
+      "dynamic_stiffness_measured_min": null,
+      "dynamic_stiffness_measured_max": null,
+      "loss_factor": 0.2,
+      "loss_factor_measured_min": null,
+      "loss_factor_measured_max": null
+    },
+    "subslab_layers": [],
+    "floating_layers": [
+      {
+        "name": "마감모르타르",
+        "thickness": 70.0,
+        "strength": 15.4,
+        "density": 2100.0
+      }
+    ]
+  },
+  "GSIP-MEA743-F": {
+    "source": "builtin",
+    "cert_no": "제24-17호",
+    "grade": {
+      "tapping": 1,
+      "ball": 3
+    },
+    "slab": {
+      "thickness": 210.0,
+      "strength": 24.0,
+      "density": 2300.0
+    },
+    "elastic": {
+      "thickness": 40.0,
+      "dynamic_stiffness": 12.0,
+      "dynamic_stiffness_measured_min": null,
+      "dynamic_stiffness_measured_max": null,
+      "loss_factor": 0.2,
+      "loss_factor_measured_min": null,
+      "loss_factor_measured_max": null
+    },
+    "subslab_layers": [
+      {
+        "name": "경량기포콘크리트",
+        "thickness": 30.0,
+        "strength": 1.41,
+        "density": 500.0
+      }
+    ],
+    "floating_layers": [
+      {
+        "name": "마감모르타르",
+        "thickness": 70.0,
+        "strength": 11.4,
+        "density": 2100.0
+      }
+    ]
+  },
+  "GSIP-MEA743-S": {
+    "source": "builtin",
+    "cert_no": "제24-18호",
+    "grade": {
+      "tapping": 1,
+      "ball": 3
+    },
+    "slab": {
+      "thickness": 210.0,
+      "strength": 24.0,
+      "density": 2300.0
+    },
+    "elastic": {
+      "thickness": 40.0,
+      "dynamic_stiffness": 12.2,
+      "dynamic_stiffness_measured_min": null,
+      "dynamic_stiffness_measured_max": null,
+      "loss_factor": 0.2,
+      "loss_factor_measured_min": null,
+      "loss_factor_measured_max": null
+    },
+    "subslab_layers": [
+      {
+        "name": "경량기포콘크리트",
+        "thickness": 30.0,
+        "strength": 1.44,
+        "density": 500.0
+      }
+    ],
+    "floating_layers": [
+      {
+        "name": "마감모르타르",
+        "thickness": 70.0,
+        "strength": 12.2,
+        "density": 2100.0
+      }
+    ]
+  },
+  "이중층간소음방지시스템": {
+    "source": "builtin",
+    "cert_no": "제24-19호",
+    "grade": {
+      "tapping": 3,
+      "ball": 4
+    },
+    "slab": {
+      "thickness": 210.0,
+      "strength": 24.0,
+      "density": 2300.0
+    },
+    "elastic": {
+      "thickness": 35.0,
+      "dynamic_stiffness": 28.8,
+      "dynamic_stiffness_measured_min": null,
+      "dynamic_stiffness_measured_max": null,
+      "loss_factor": 0.2,
+      "loss_factor_measured_min": null,
+      "loss_factor_measured_max": null
+    },
+    "subslab_layers": [],
+    "floating_layers": [
+      {
+        "name": "경량기포콘크리트",
+        "thickness": 35.0,
+        "strength": 1.6,
+        "density": 500.0
+      },
+      {
+        "name": "마감모르타르",
+        "thickness": 40.0,
+        "strength": 18.5,
+        "density": 2100.0
+      }
+    ]
+  },
+  "L12-Mute401S-210": {
+    "source": "builtin",
+    "cert_no": "제24-20호",
+    "grade": {
+      "tapping": 1,
+      "ball": 3
+    },
+    "slab": {
+      "thickness": 210,
+      "strength": 24,
+      "density": 2300
+    },
+    "elastic": {
+      "thickness": 40,
+      "dynamic_stiffness": 12.2,
+      "dynamic_stiffness_measured_min": null,
+      "dynamic_stiffness_measured_max": null,
+      "loss_factor": 0.2,
+      "loss_factor_measured_min": null,
+      "loss_factor_measured_max": null
+    },
+    "subslab_layers": [],
+    "floating_layers": [
+      {
+        "name": "마감모르타르",
+        "thickness": 70,
+        "strength": 13.2,
+        "density": 2100
+      }
+    ]
+  },
+  "L12-Mute602S-210": {
+    "source": "builtin",
+    "cert_no": "제24-21호",
+    "grade": {
+      "tapping": 1,
+      "ball": 2
+    },
+    "slab": {
+      "thickness": 210,
+      "strength": 24,
+      "density": 2300
+    },
+    "elastic": {
+      "thickness": 60,
+      "dynamic_stiffness": 9.8,
+      "dynamic_stiffness_measured_min": null,
+      "dynamic_stiffness_measured_max": null,
+      "loss_factor": 0.2,
+      "loss_factor_measured_min": null,
+      "loss_factor_measured_max": null
+    },
+    "subslab_layers": [],
+    "floating_layers": [
+      {
+        "name": "마감모르타르",
+        "thickness": 50,
+        "strength": 13.8,
+        "density": 2100
+      }
+    ]
+  },
+  "소닉스 Anwoollim U40-A 시스템": {
+    "source": "builtin",
+    "cert_no": "제24-22호",
+    "grade": {
+      "tapping": 1,
+      "ball": 1
+    },
+    "slab": {
+      "thickness": 210,
+      "strength": 24,
+      "density": 2300
+    },
+    "elastic": {
+      "thickness": 40,
+      "dynamic_stiffness": 7.4,
+      "dynamic_stiffness_measured_min": null,
+      "dynamic_stiffness_measured_max": null,
+      "loss_factor": 0.2,
+      "loss_factor_measured_min": null,
+      "loss_factor_measured_max": null
+    },
+    "subslab_layers": [],
+    "floating_layers": [
+      {
+        "name": "마감모르타르",
+        "thickness": 70,
+        "strength": 14.2,
+        "density": 2100
+      }
+    ]
+  },
+  "DL-DLAS8P-210": {
+    "source": "builtin",
+    "cert_no": "제24-23호",
+    "grade": {
+      "tapping": 1,
+      "ball": 1
+    },
+    "slab": {
+      "thickness": 210,
+      "strength": 24,
+      "density": 2300
+    },
+    "elastic": {
+      "thickness": 50,
+      "dynamic_stiffness": 10.9,
+      "dynamic_stiffness_measured_min": null,
+      "dynamic_stiffness_measured_max": null,
+      "loss_factor": 0.2,
+      "loss_factor_measured_min": null,
+      "loss_factor_measured_max": null
+    },
+    "subslab_layers": [
+      {
+        "name": "기초모르타르(HD)",
+        "thickness": 20,
+        "strength": 16.9,
+        "density": 2300
+      }
+    ],
+    "floating_layers": [
+      {
+        "name": "마감모르타르(HD)",
+        "thickness": 60,
+        "strength": 17.4,
+        "density": 2300
+      },
+      {
+        "name": "치장목질마루판",
+        "thickness": 7.5,
+        "strength": 2.0,
+        "density": 1200.0
+      }
+    ]
+  },
+  "BO-30-DAB-3": {
+    "source": "builtin",
+    "cert_no": "제24-24호",
+    "grade": {
+      "tapping": 1,
+      "ball": 4
+    },
+    "slab": {
+      "thickness": 210,
+      "strength": 24,
+      "density": 2300
+    },
+    "elastic": {
+      "thickness": 73,
+      "dynamic_stiffness": 11.2,
+      "dynamic_stiffness_measured_min": null,
+      "dynamic_stiffness_measured_max": null,
+      "loss_factor": 0.2,
+      "loss_factor_measured_min": null,
+      "loss_factor_measured_max": null
+    },
+    "subslab_layers": [],
+    "floating_layers": [
+      {
+        "name": "마감모르타르",
+        "thickness": 37,
+        "strength": 16.7,
+        "density": 2100
+      }
+    ]
+  },
+  "DL-DLAS9P-210": {
+    "source": "builtin",
+    "cert_no": "제24-25호",
+    "grade": {
+      "tapping": 1,
+      "ball": 1
+    },
+    "slab": {
+      "thickness": 210,
+      "strength": 24,
+      "density": 2300
+    },
+    "elastic": {
+      "thickness": 60,
+      "dynamic_stiffness": 9.4,
+      "dynamic_stiffness_measured_min": null,
+      "dynamic_stiffness_measured_max": null,
+      "loss_factor": 0.2,
+      "loss_factor_measured_min": null,
+      "loss_factor_measured_max": null
+    },
+    "subslab_layers": [
+      {
+        "name": "기초모르타르(HD)",
+        "thickness": 20,
+        "strength": 16.9,
+        "density": 2300
+      }
+    ],
+    "floating_layers": [
+      {
+        "name": "마감모르타르(HD)",
+        "thickness": 60,
+        "strength": 17.4,
+        "density": 2300
+      },
+      {
+        "name": "치장목질마루판",
+        "thickness": 7.5,
+        "strength": 2.0,
+        "density": 1200.0
+      }
+    ]
+  },
+  "L13-HB60BS-210": {
+    "source": "builtin",
+    "cert_no": "제24-26호",
+    "grade": {
+      "tapping": 1,
+      "ball": 2
+    },
+    "slab": {
+      "thickness": 210,
+      "strength": 24,
+      "density": 2300
+    },
+    "elastic": {
+      "thickness": 60,
+      "dynamic_stiffness": 10.4,
+      "dynamic_stiffness_measured_min": null,
+      "dynamic_stiffness_measured_max": null,
+      "loss_factor": 0.2,
+      "loss_factor_measured_min": null,
+      "loss_factor_measured_max": null
+    },
+    "subslab_layers": [],
+    "floating_layers": [
+      {
+        "name": "마감모르타르",
+        "thickness": 60,
+        "strength": 14.6,
+        "density": 2100
+      }
+    ]
+  },
+  "DL-DLAS11-210": {
+    "source": "builtin",
+    "cert_no": "제24-27호",
+    "grade": {
+      "tapping": 1,
+      "ball": 3
+    },
+    "slab": {
+      "thickness": 210,
+      "strength": 24,
+      "density": 2300
+    },
+    "elastic": {
+      "thickness": 40,
+      "dynamic_stiffness": 13.4,
+      "dynamic_stiffness_measured_min": null,
+      "dynamic_stiffness_measured_max": null,
+      "loss_factor": 0.2,
+      "loss_factor_measured_min": null,
+      "loss_factor_measured_max": null
+    },
+    "subslab_layers": [
+      {
+        "name": "기초모르타르(HD)",
+        "thickness": 30,
+        "strength": 16.9,
+        "density": 2300
+      }
+    ],
+    "floating_layers": [
+      {
+        "name": "마감모르타르(HD)",
+        "thickness": 50,
+        "strength": 17.4,
+        "density": 2300
+      }
+    ]
+  },
+  "Anwoollim-Reo-JC35": {
+    "source": "builtin",
+    "cert_no": "제24-28호",
+    "grade": {
+      "tapping": 1,
+      "ball": 3
+    },
+    "slab": {
+      "thickness": 210,
+      "strength": 24,
+      "density": 2300
+    },
+    "elastic": {
+      "thickness": 35,
+      "dynamic_stiffness": 17.8,
+      "dynamic_stiffness_measured_min": null,
+      "dynamic_stiffness_measured_max": null,
+      "loss_factor": 0.2,
+      "loss_factor_measured_min": null,
+      "loss_factor_measured_max": null
+    },
+    "subslab_layers": [],
+    "floating_layers": [
+      {
+        "name": "마감모르타르",
+        "thickness": 75,
+        "strength": 14.3,
+        "density": 2100
+      }
+    ]
+  },
+  "BO-30-DAB-2": {
+    "source": "builtin",
+    "cert_no": "제24-29호",
+    "grade": {
+      "tapping": 2,
+      "ball": 4
+    },
+    "slab": {
+      "thickness": 210,
+      "strength": 24,
+      "density": 2300
+    },
+    "elastic": {
+      "thickness": 76,
+      "dynamic_stiffness": 10.6,
+      "dynamic_stiffness_measured_min": null,
+      "dynamic_stiffness_measured_max": null,
+      "loss_factor": 0.2,
+      "loss_factor_measured_min": null,
+      "loss_factor_measured_max": null
+    },
+    "subslab_layers": [],
+    "floating_layers": [
+      {
+        "name": "마감모르타르",
+        "thickness": 40,
+        "strength": 15.1,
+        "density": 2100
+      }
+    ]
+  },
+  "LXH Solution 50H": {
+    "source": "builtin",
+    "cert_no": "제24-30호",
+    "grade": {
+      "tapping": 1,
+      "ball": 1
+    },
+    "slab": {
+      "thickness": 210,
+      "strength": 24,
+      "density": 2300
+    },
+    "elastic": {
+      "thickness": 50,
+      "dynamic_stiffness": 1.4,
+      "dynamic_stiffness_measured_min": null,
+      "dynamic_stiffness_measured_max": null,
+      "loss_factor": 0.2,
+      "loss_factor_measured_min": null,
+      "loss_factor_measured_max": null
+    },
+    "subslab_layers": [],
+    "floating_layers": [
+      {
+        "name": "마감모르타르",
+        "thickness": 60,
+        "strength": 19.1,
+        "density": 2300
+      }
+    ]
+  },
+  "RMFGNZ-S70LH": {
+    "source": "builtin",
+    "cert_no": "제24-31호",
+    "grade": {
+      "tapping": 1,
+      "ball": 3
+    },
+    "slab": {
+      "thickness": 210,
+      "strength": 24,
+      "density": 2300
+    },
+    "elastic": {
+      "thickness": 70,
+      "dynamic_stiffness": 15.6,
+      "dynamic_stiffness_measured_min": null,
+      "dynamic_stiffness_measured_max": null,
+      "loss_factor": 0.2,
+      "loss_factor_measured_min": null,
+      "loss_factor_measured_max": null
+    },
+    "subslab_layers": [],
+    "floating_layers": [
+      {
+        "name": "마감모르타르",
+        "thickness": 50,
+        "strength": 16.3,
+        "density": 2100
+      }
+    ]
+  },
+  "Zero Sound Foam-SE601 System": {
+    "source": "builtin",
+    "cert_no": "제24-32호",
+    "grade": {
+      "tapping": 2,
+      "ball": 3
+    },
+    "slab": {
+      "thickness": 210,
+      "strength": 24,
+      "density": 2300
+    },
+    "elastic": {
+      "thickness": 60,
+      "dynamic_stiffness": 6.8,
+      "dynamic_stiffness_measured_min": null,
+      "dynamic_stiffness_measured_max": null,
+      "loss_factor": 0.2,
+      "loss_factor_measured_min": null,
+      "loss_factor_measured_max": null
+    },
+    "subslab_layers": [],
+    "floating_layers": [
+      {
+        "name": "마감모르타르",
+        "thickness": 50,
+        "strength": 13.7,
+        "density": 2100
+      }
+    ]
+  },
+  "HC-MT72- Ⅰ": {
+    "source": "builtin",
+    "cert_no": "제24-33호",
+    "grade": {
+      "tapping": 2,
+      "ball": 3
+    },
+    "slab": {
+      "thickness": 210.0,
+      "strength": 24.0,
+      "density": 2300.0
+    },
+    "elastic": {
+      "thickness": 38.0,
+      "dynamic_stiffness": 5.1,
+      "dynamic_stiffness_measured_min": null,
+      "dynamic_stiffness_measured_max": null,
+      "loss_factor": 0.2,
+      "loss_factor_measured_min": null,
+      "loss_factor_measured_max": null
+    },
+    "subslab_layers": [],
+    "floating_layers": [
+      {
+        "name": "1차모르타르",
+        "thickness": 32.0,
+        "strength": 17.1,
+        "density": 2100.0
+      },
+      {
+        "name": "2차모르타르",
+        "thickness": 40.0,
+        "strength": 13.1,
+        "density": 2100.0
+      }
+    ]
+  },
+  "소닉스 U40-B 시스템": {
+    "source": "builtin",
+    "cert_no": "제24-34호",
+    "grade": {
+      "tapping": 1,
+      "ball": 3
+    },
+    "slab": {
+      "thickness": 210,
+      "strength": 24,
+      "density": 2300
+    },
+    "elastic": {
+      "thickness": 40,
+      "dynamic_stiffness": 8.0,
+      "dynamic_stiffness_measured_min": null,
+      "dynamic_stiffness_measured_max": null,
+      "loss_factor": 0.2,
+      "loss_factor_measured_min": null,
+      "loss_factor_measured_max": null
+    },
+    "subslab_layers": [],
+    "floating_layers": [
+      {
+        "name": "경량기포콘크리트",
+        "thickness": 30,
+        "strength": 1.86,
+        "density": 500
+      },
+      {
+        "name": "마감모르타르",
+        "thickness": 40,
+        "strength": 14.6,
+        "density": 2100
+      }
+    ]
+  },
+  "SW-65E": {
+    "source": "builtin",
+    "cert_no": "제25-01호",
+    "grade": {
+      "tapping": 1,
+      "ball": 2
+    },
+    "slab": {
+      "thickness": 210,
+      "strength": 24,
+      "density": 2300
+    },
+    "elastic": {
+      "thickness": 65,
+      "dynamic_stiffness": 6.1,
+      "dynamic_stiffness_measured_min": null,
+      "dynamic_stiffness_measured_max": null,
+      "loss_factor": 0.2,
+      "loss_factor_measured_min": null,
+      "loss_factor_measured_max": null
+    },
+    "subslab_layers": [],
+    "floating_layers": [
+      {
+        "name": "마감모르타르",
+        "thickness": 45,
+        "strength": 13.7,
+        "density": 2100
+      }
+    ]
+  },
+  "SW-70E": {
+    "source": "builtin",
+    "cert_no": "제25-02호",
+    "grade": {
+      "tapping": 3,
+      "ball": 3
+    },
+    "slab": {
+      "thickness": 210,
+      "strength": 24,
+      "density": 2300
+    },
+    "elastic": {
+      "thickness": 40,
+      "dynamic_stiffness": 8.4,
+      "dynamic_stiffness_measured_min": null,
+      "dynamic_stiffness_measured_max": null,
+      "loss_factor": 0.2,
+      "loss_factor_measured_min": null,
+      "loss_factor_measured_max": null
+    },
+    "subslab_layers": [],
+    "floating_layers": [
+      {
+        "name": "수지몰탈",
+        "thickness": 30,
+        "strength": 1.4,
+        "density": 2100
+      },
+      {
+        "name": "마감 모르타르",
+        "thickness": 40,
+        "strength": 14.4,
+        "density": 2100
+      }
+    ]
+  },
+  "노이즈 컨트롤 패드 B system": {
+    "source": "builtin",
+    "cert_no": "제25-03호",
+    "grade": {
+      "tapping": 1,
+      "ball": 3
+    },
+    "slab": {
+      "thickness": 210,
+      "strength": 24,
+      "density": 2300
+    },
+    "elastic": {
+      "thickness": 30,
+      "dynamic_stiffness": 16.9,
+      "dynamic_stiffness_measured_min": null,
+      "dynamic_stiffness_measured_max": null,
+      "loss_factor": 0.2,
+      "loss_factor_measured_min": null,
+      "loss_factor_measured_max": null
+    },
+    "subslab_layers": [],
+    "floating_layers": [
+      {
+        "name": "1차 모르타르",
+        "thickness": 40,
+        "strength": 12,
+        "density": 2100
+      },
+      {
+        "name": "마감 모르타르",
+        "thickness": 40,
+        "strength": 18.8,
+        "density": 2100
+      }
+    ]
+  },
+  "SL-NC45-I": {
+    "source": "builtin",
+    "cert_no": "제25-04호",
+    "grade": {
+      "tapping": 1,
+      "ball": 3
+    },
+    "slab": {
+      "thickness": 210,
+      "strength": 24,
+      "density": 2300
+    },
+    "elastic": {
+      "thickness": 45,
+      "dynamic_stiffness": 5.7,
+      "dynamic_stiffness_measured_min": 4.3,
+      "dynamic_stiffness_measured_max": 4.3,
+      "loss_factor": 0.2,
+      "loss_factor_measured_min": 0.2,
+      "loss_factor_measured_max": 0.2
+    },
+    "subslab_layers": [],
+    "floating_layers": [
+      {
+        "name": "마감모르타르",
+        "thickness": 65,
+        "strength": 16.7,
+        "density": 2100
+      }
+    ]
+  },
+  "JS SYSTEM 60-1": {
+    "source": "builtin",
+    "cert_no": "제25-05호",
+    "grade": {
+      "tapping": 1,
+      "ball": 4
+    },
+    "slab": {
+      "thickness": 210,
+      "strength": 24,
+      "density": 2300
+    },
+    "elastic": {
+      "thickness": 60,
+      "dynamic_stiffness": 21.3,
+      "dynamic_stiffness_measured_min": null,
+      "dynamic_stiffness_measured_max": null,
+      "loss_factor": 0.2,
+      "loss_factor_measured_min": null,
+      "loss_factor_measured_max": null
+    },
+    "subslab_layers": [],
+    "floating_layers": [
+      {
+        "name": "마감모르타르",
+        "thickness": 50,
+        "strength": 13.3,
+        "density": 2100
+      }
+    ]
+  },
+  "JS SYSTEM 60-2": {
+    "source": "builtin",
+    "cert_no": "제25-06호",
+    "grade": {
+      "tapping": 1,
+      "ball": 4
+    },
+    "slab": {
+      "thickness": 210,
+      "strength": 24,
+      "density": 2300
+    },
+    "elastic": {
+      "thickness": 60,
+      "dynamic_stiffness": 27.8,
+      "dynamic_stiffness_measured_min": null,
+      "dynamic_stiffness_measured_max": null,
+      "loss_factor": 0.2,
+      "loss_factor_measured_min": null,
+      "loss_factor_measured_max": null
+    },
+    "subslab_layers": [],
+    "floating_layers": [
+      {
+        "name": "마감모르타르",
+        "thickness": 50,
+        "strength": 13.3,
+        "density": 2100
+      }
+    ]
+  },
+  "JS SYSTEM 120-2": {
+    "source": "builtin",
+    "cert_no": "제25-07호",
+    "grade": {
+      "tapping": 1,
+      "ball": 4
+    },
+    "slab": {
+      "thickness": 210,
+      "strength": 24,
+      "density": 2300
+    },
+    "elastic": {
+      "thickness": 40,
+      "dynamic_stiffness": 20.3,
+      "dynamic_stiffness_measured_min": 6.5,
+      "dynamic_stiffness_measured_max": 18.5,
+      "loss_factor": 0.2,
+      "loss_factor_measured_min": 0.07,
+      "loss_factor_measured_max": 0.11
+    },
+    "subslab_layers": [],
+    "floating_layers": [
+      {
+        "name": "경량기포콘크리트",
+        "thickness": 30,
+        "strength": 1.5,
+        "density": 500
+      },
+      {
+        "name": "마감모르타르",
+        "thickness": 40,
+        "strength": 13.3,
+        "density": 2100
+      }
+    ]
+  },
+  "EH301 시스템": {
+    "source": "builtin",
+    "cert_no": "제25-08호",
+    "grade": {
+      "tapping": 3,
+      "ball": 4
+    },
+    "slab": {
+      "thickness": 210,
+      "strength": 24,
+      "density": 2300
+    },
+    "elastic": {
+      "thickness": 30,
+      "dynamic_stiffness": 14.8,
+      "dynamic_stiffness_measured_min": null,
+      "dynamic_stiffness_measured_max": null,
+      "loss_factor": 0.2,
+      "loss_factor_measured_min": null,
+      "loss_factor_measured_max": null
+    },
+    "subslab_layers": [],
+    "floating_layers": [
+      {
+        "name": "1차 모르타르",
+        "thickness": 40,
+        "strength": 0.8,
+        "density": 2100
+      },
+      {
+        "name": "마감 모르타르",
+        "thickness": 40,
+        "strength": 13.0,
+        "density": 2100
+      }
+    ]
+  },
+  "노이즈블럭 Anwoollim-DY3": {
+    "source": "builtin",
+    "cert_no": "제25-09호",
+    "grade": {
+      "tapping": 1,
+      "ball": 2
+    },
+    "slab": {
+      "thickness": 250,
+      "strength": 24,
+      "density": 2300
+    },
+    "elastic": {
+      "thickness": 40,
+      "dynamic_stiffness": 5.6,
+      "dynamic_stiffness_measured_min": null,
+      "dynamic_stiffness_measured_max": null,
+      "loss_factor": 0.2,
+      "loss_factor_measured_min": null,
+      "loss_factor_measured_max": null
+    },
+    "subslab_layers": [],
+    "floating_layers": [
+      {
+        "name": "마감모르타르",
+        "thickness": 70,
+        "strength": 15.9,
+        "density": 2100
+      }
+    ]
+  },
+  "DI-DW-ST40-II SYSTEM": {
+    "source": "builtin",
+    "cert_no": "제25-10호",
+    "grade": {
+      "tapping": 1,
+      "ball": 2
+    },
+    "slab": {
+      "thickness": 210,
+      "strength": 24,
+      "density": 2300
+    },
+    "elastic": {
+      "thickness": 40,
+      "dynamic_stiffness": 5.0,
+      "dynamic_stiffness_measured_min": null,
+      "dynamic_stiffness_measured_max": null,
+      "loss_factor": 0.2,
+      "loss_factor_measured_min": null,
+      "loss_factor_measured_max": null
+    },
+    "subslab_layers": [],
+    "floating_layers": [
+      {
+        "name": "경량기포콘크리트",
+        "thickness": 30,
+        "strength": 1.5,
+        "density": 500
+      },
+      {
+        "name": "마감모르타르",
+        "thickness": 40,
+        "strength": 14.2,
+        "density": 2100
+      }
+    ]
+  },
+  "SL-SILENCE I": {
+    "source": "builtin",
+    "cert_no": "제25-11호",
+    "grade": {
+      "tapping": 1,
+      "ball": 1
+    },
+    "slab": {
+      "thickness": 250,
+      "strength": 24,
+      "density": 2300
+    },
+    "elastic": {
+      "thickness": 60,
+      "dynamic_stiffness": 7.2,
+      "dynamic_stiffness_measured_min": null,
+      "dynamic_stiffness_measured_max": null,
+      "loss_factor": 0.2,
+      "loss_factor_measured_min": null,
+      "loss_factor_measured_max": null
+    },
+    "subslab_layers": [],
+    "floating_layers": [
+      {
+        "name": "마감모르타르",
+        "thickness": 50,
+        "strength": 14.9,
+        "density": 2100
+      }
+    ]
+  },
+  "H-II-HDM70": {
+    "source": "builtin",
+    "cert_no": "제25-12호",
+    "grade": {
+      "tapping": 1,
+      "ball": 1
+    },
+    "slab": {
+      "thickness": 210,
+      "strength": 24,
+      "density": 2300
+    },
+    "elastic": {
+      "thickness": 40,
+      "dynamic_stiffness": 1.5,
+      "dynamic_stiffness_measured_min": null,
+      "dynamic_stiffness_measured_max": null,
+      "loss_factor": 0.2,
+      "loss_factor_measured_min": null,
+      "loss_factor_measured_max": null
+    },
+    "subslab_layers": [],
+    "floating_layers": [
+      {
+        "name": "1차 모르타르",
+        "thickness": 30,
+        "strength": 15.3,
+        "density": 2400
+      },
+      {
+        "name": "2차 모르타르",
+        "thickness": 40,
+        "strength": 20.5,
+        "density": 2400
+      }
+    ]
+  },
+  "H-II-DM100": {
+    "source": "builtin",
+    "cert_no": "제25-13호",
+    "grade": {
+      "tapping": 1,
+      "ball": 1
+    },
+    "slab": {
+      "thickness": 210,
+      "strength": 24,
+      "density": 2300
+    },
+    "elastic": {
+      "thickness": 40,
+      "dynamic_stiffness": 1.5,
+      "dynamic_stiffness_measured_min": null,
+      "dynamic_stiffness_measured_max": null,
+      "loss_factor": 0.2,
+      "loss_factor_measured_min": null,
+      "loss_factor_measured_max": null
+    },
+    "subslab_layers": [],
+    "floating_layers": [
+      {
+        "name": "1차 모르타르",
+        "thickness": 60,
+        "strength": 13.4,
+        "density": 2100
+      },
+      {
+        "name": "2차 모르타르",
+        "thickness": 40,
+        "strength": 8.4,
+        "density": 2100
+      }
+    ]
+  },
+  "LXH Solution 50M GS": {
+    "source": "builtin",
+    "cert_no": "제25-14호",
+    "grade": {
+      "tapping": 1,
+      "ball": 1
+    },
+    "slab": {
+      "thickness": 210,
+      "strength": 24,
+      "density": 2300
+    },
+    "elastic": {
+      "thickness": 50,
+      "dynamic_stiffness": 1.7,
+      "dynamic_stiffness_measured_min": null,
+      "dynamic_stiffness_measured_max": null,
+      "loss_factor": 0.2,
+      "loss_factor_measured_min": null,
+      "loss_factor_measured_max": null
+    },
+    "subslab_layers": [],
+    "floating_layers": [
+      {
+        "name": "마감모르타르",
+        "thickness": 60,
+        "strength": 20.5,
+        "density": 2100
+      }
+    ]
+  },
+  "K-A40 System": {
+    "source": "builtin",
+    "cert_no": "제25-15호",
+    "grade": {
+      "tapping": 1,
+      "ball": 2
+    },
+    "slab": {
+      "thickness": 210,
+      "strength": 24,
+      "density": 2300
+    },
+    "elastic": {
+      "thickness": 40,
+      "dynamic_stiffness": 7.3,
+      "dynamic_stiffness_measured_min": null,
+      "dynamic_stiffness_measured_max": null,
+      "loss_factor": 0.2,
+      "loss_factor_measured_min": null,
+      "loss_factor_measured_max": null
+    },
+    "subslab_layers": [],
+    "floating_layers": [
+      {
+        "name": "마감모르타르",
+        "thickness": 70,
+        "strength": 14.7,
+        "density": 2100
+      }
+    ]
+  },
+  "K-B40 System": {
+    "source": "builtin",
+    "cert_no": "제25-16호",
+    "grade": {
+      "tapping": 1,
+      "ball": 2
+    },
+    "slab": {
+      "thickness": 210,
+      "strength": 24,
+      "density": 2300
+    },
+    "elastic": {
+      "thickness": 40,
+      "dynamic_stiffness": 7.3,
+      "dynamic_stiffness_measured_min": null,
+      "dynamic_stiffness_measured_max": null,
+      "loss_factor": 0.2,
+      "loss_factor_measured_min": null,
+      "loss_factor_measured_max": null
+    },
+    "subslab_layers": [],
+    "floating_layers": [
+      {
+        "name": "경량기포콘크리트",
+        "thickness": 30,
+        "strength": 1.4,
+        "density": 500
+      },
+      {
+        "name": "마감모르타르",
+        "thickness": 40,
+        "strength": 14.8,
+        "density": 2100
+      }
+    ]
+  },
+  "HC-MT60-I": {
+    "source": "builtin",
+    "cert_no": "제25-17호",
+    "grade": {
+      "tapping": 1,
+      "ball": 3
+    },
+    "slab": {
+      "thickness": 210,
+      "strength": 24,
+      "density": 2300
+    },
+    "elastic": {
+      "thickness": 50,
+      "dynamic_stiffness": 3.4,
+      "dynamic_stiffness_measured_min": null,
+      "dynamic_stiffness_measured_max": null,
+      "loss_factor": 0.2,
+      "loss_factor_measured_min": null,
+      "loss_factor_measured_max": null
+    },
+    "subslab_layers": [],
+    "floating_layers": [
+      {
+        "name": "마감모르타르",
+        "thickness": 60,
+        "strength": 15.7,
+        "density": 2100
+      }
+    ]
+  },
+  "K-40 System": {
+    "source": "builtin",
+    "cert_no": "제25-18호",
+    "grade": {
+      "tapping": 1,
+      "ball": 1
+    },
+    "slab": {
+      "thickness": 210,
+      "strength": 24,
+      "density": 2300
+    },
+    "elastic": {
+      "thickness": 40,
+      "dynamic_stiffness": 6.1,
+      "dynamic_stiffness_measured_min": null,
+      "dynamic_stiffness_measured_max": null,
+      "loss_factor": 0.2,
+      "loss_factor_measured_min": null,
+      "loss_factor_measured_max": null
+    },
+    "subslab_layers": [],
+    "floating_layers": [
+      {
+        "name": "마감모르타르",
+        "thickness": 70,
+        "strength": 14.7,
+        "density": 2100
+      }
+    ]
+  },
+  "LXH Solution 35L": {
+    "source": "builtin",
+    "cert_no": "제25-19호",
+    "grade": {
+      "tapping": 1,
+      "ball": 2
+    },
+    "slab": {
+      "thickness": 210,
+      "strength": 24,
+      "density": 2300
+    },
+    "elastic": {
+      "thickness": 35,
+      "dynamic_stiffness": 2.8,
+      "dynamic_stiffness_measured_min": null,
+      "dynamic_stiffness_measured_max": null,
+      "loss_factor": 0.2,
+      "loss_factor_measured_min": null,
+      "loss_factor_measured_max": null
+    },
+    "subslab_layers": [],
+    "floating_layers": [
+      {
+        "name": "경량기포콘크리트",
+        "thickness": 35,
+        "strength": 2.04,
+        "density": 500
+      },
+      {
+        "name": "마감모르타르",
+        "thickness": 40,
+        "strength": 12.7,
+        "density": 2100
+      }
+    ]
+  },
+  "LXH Solution 35L_F": {
+    "source": "builtin",
+    "cert_no": "제25-20호",
+    "grade": {
+      "tapping": 1,
+      "ball": 1
+    },
+    "slab": {
+      "thickness": 210,
+      "strength": 24,
+      "density": 2300
+    },
+    "elastic": {
+      "thickness": 35,
+      "dynamic_stiffness": 2.8,
+      "dynamic_stiffness_measured_min": null,
+      "dynamic_stiffness_measured_max": null,
+      "loss_factor": 0.2,
+      "loss_factor_measured_min": null,
+      "loss_factor_measured_max": null
+    },
+    "subslab_layers": [],
+    "floating_layers": [
+      {
+        "name": "경량기포콘크리트",
+        "thickness": 35,
+        "strength": 2.04,
+        "density": 500
+      },
+      {
+        "name": "마감모르타르",
+        "thickness": 40,
+        "strength": 12.7,
+        "density": 2100
+      }
+    ]
+  },
+  "JS SYSTEM 40-1": {
+    "source": "builtin",
+    "cert_no": "제25-21호",
+    "grade": {
+      "tapping": 1,
+      "ball": 2
+    },
+    "slab": {
+      "thickness": 210,
+      "strength": 24,
+      "density": 2300
+    },
+    "elastic": {
+      "thickness": 40,
+      "dynamic_stiffness": 4.9,
+      "dynamic_stiffness_measured_min": null,
+      "dynamic_stiffness_measured_max": null,
+      "loss_factor": 0.2,
+      "loss_factor_measured_min": null,
+      "loss_factor_measured_max": null
+    },
+    "subslab_layers": [],
+    "floating_layers": [
+      {
+        "name": "경량기포콘크리트",
+        "thickness": 30,
+        "strength": 1.4,
+        "density": 500
+      },
+      {
+        "name": "마감모르타르",
+        "thickness": 40,
+        "strength": 14.1,
+        "density": 2100
+      }
+    ]
+  },
+  "소닉스 ZERO 시스템": {
+    "source": "builtin",
+    "cert_no": "제25-22호",
+    "grade": {
+      "tapping": 1,
+      "ball": 2
+    },
+    "slab": {
+      "thickness": 210,
+      "strength": 24,
+      "density": 2300
+    },
+    "elastic": {
+      "thickness": 40,
+      "dynamic_stiffness": 19.9,
+      "dynamic_stiffness_measured_min": null,
+      "dynamic_stiffness_measured_max": null,
+      "loss_factor": 0.2,
+      "loss_factor_measured_min": null,
+      "loss_factor_measured_max": null
+    },
+    "subslab_layers": [],
+    "floating_layers": [
+      {
+        "name": "마감모르타르",
+        "thickness": 70,
+        "strength": 14.1,
+        "density": 2100
+      }
+    ]
+  },
+  "HHM-소리마스타-AWL-210": {
+    "source": "builtin",
+    "cert_no": "제25-23호",
+    "grade": {
+      "tapping": 2,
+      "ball": 4
+    },
+    "slab": {
+      "thickness": 210,
+      "strength": 24,
+      "density": 2300
+    },
+    "elastic": {
+      "thickness": 70,
+      "dynamic_stiffness": 4.4,
+      "dynamic_stiffness_measured_min": null,
+      "dynamic_stiffness_measured_max": null,
+      "loss_factor": 0.2,
+      "loss_factor_measured_min": null,
+      "loss_factor_measured_max": null
+    },
+    "subslab_layers": [],
+    "floating_layers": [
+      {
+        "name": "마감모르타르",
+        "thickness": 40,
+        "strength": 14.6,
+        "density": 2100
+      }
+    ]
+  },
+  "Mute401-PAPAYA system": {
+    "source": "builtin",
+    "cert_no": "제25-24호",
+    "grade": {
+      "tapping": 1,
+      "ball": 3
+    },
+    "slab": {
+      "thickness": 210,
+      "strength": 24,
+      "density": 2300
+    },
+    "elastic": {
+      "thickness": 40,
+      "dynamic_stiffness": 19.4,
+      "dynamic_stiffness_measured_min": null,
+      "dynamic_stiffness_measured_max": null,
+      "loss_factor": 0.2,
+      "loss_factor_measured_min": null,
+      "loss_factor_measured_max": null
+    },
+    "subslab_layers": [],
+    "floating_layers": [
+      {
+        "name": "마감모르타르",
+        "thickness": 70,
+        "strength": 12.8,
+        "density": 2100
+      }
+    ]
+  },
+  "L25-EB40B-210": {
+    "source": "builtin",
+    "cert_no": "제25-25호",
+    "grade": {
+      "tapping": 2,
+      "ball": 4
+    },
+    "slab": {
+      "thickness": 210,
+      "strength": 24,
+      "density": 2300
+    },
+    "elastic": {
+      "thickness": 40,
+      "dynamic_stiffness": 19.4,
+      "dynamic_stiffness_measured_min": null,
+      "dynamic_stiffness_measured_max": null,
+      "loss_factor": 0.2,
+      "loss_factor_measured_min": null,
+      "loss_factor_measured_max": null
+    },
+    "subslab_layers": [],
+    "floating_layers": [
+      {
+        "name": "마감모르타르",
+        "thickness": 70,
+        "strength": 12.7,
+        "density": 2100
+      }
+    ]
+  },
+  "KDPT-D30 시스템": {
+    "source": "builtin",
+    "cert_no": "제25-26호",
+    "grade": {
+      "tapping": 3,
+      "ball": 3
+    },
+    "slab": {
+      "thickness": 210,
+      "strength": 24,
+      "density": 2300
+    },
+    "elastic": {
+      "thickness": 30,
+      "dynamic_stiffness": 7.1,
+      "dynamic_stiffness_measured_min": null,
+      "dynamic_stiffness_measured_max": null,
+      "loss_factor": 0.2,
+      "loss_factor_measured_min": null,
+      "loss_factor_measured_max": null
+    },
+    "subslab_layers": [],
+    "floating_layers": [
+      {
+        "name": "경량기포콘크리트",
+        "thickness": 40,
+        "strength": 0.6,
+        "density": 500
+      },
+      {
+        "name": "마감모르타르",
+        "thickness": 40,
+        "strength": 16.8,
+        "density": 2100
+      }
+    ]
+  },
+  "HHM-소리마스타-AWL-150": {
+    "source": "builtin",
+    "cert_no": "제26-01호",
+    "grade": {
+      "tapping": 1,
+      "ball": 3
+    },
+    "slab": {
+      "thickness": 150,
+      "strength": 24,
+      "density": 2300
+    },
+    "elastic": {
+      "thickness": 40,
+      "dynamic_stiffness": 4.3,
+      "dynamic_stiffness_measured_min": null,
+      "dynamic_stiffness_measured_max": null,
+      "loss_factor": 0.2,
+      "loss_factor_measured_min": null,
+      "loss_factor_measured_max": null
+    },
+    "subslab_layers": [],
+    "floating_layers": [
+      {
+        "name": "마감모르타르",
+        "thickness": 60,
+        "strength": 14.3,
+        "density": 2100
+      }
+    ]
+  },
+  "노이즈블럭 AWL DY40A-150S": {
+    "source": "builtin",
+    "cert_no": "제26-02호",
+    "grade": {
+      "tapping": 2,
+      "ball": 4
+    },
+    "slab": {
+      "thickness": 150,
+      "strength": 24,
+      "density": 2300
+    },
+    "elastic": {
+      "thickness": 40,
+      "dynamic_stiffness": 11.3,
+      "dynamic_stiffness_measured_min": null,
+      "dynamic_stiffness_measured_max": null,
+      "loss_factor": 0.2,
+      "loss_factor_measured_min": null,
+      "loss_factor_measured_max": null
+    },
+    "subslab_layers": [],
+    "floating_layers": [
+      {
+        "name": "마감모르타르",
+        "thickness": 40,
+        "strength": 14.7,
+        "density": 2100
+      }
+    ]
+  },
+  "BO-30-DAB-1": {
+    "source": "builtin",
+    "cert_no": "제26-03호",
+    "grade": {
+      "tapping": 2,
+      "ball": 4
+    },
+    "slab": {
+      "thickness": 210,
+      "strength": 24,
+      "density": 2300
+    },
+    "elastic": {
+      "thickness": 70,
+      "dynamic_stiffness": 8.5,
+      "dynamic_stiffness_measured_min": null,
+      "dynamic_stiffness_measured_max": null,
+      "loss_factor": 0.2,
+      "loss_factor_measured_min": null,
+      "loss_factor_measured_max": null
+    },
+    "subslab_layers": [],
+    "floating_layers": [
+      {
+        "name": "마감모르타르",
+        "thickness": 40,
+        "strength": 14.6,
+        "density": 2100
+      }
+    ]
+  },
+  "NonNo-SPG55": {
+    "source": "builtin",
+    "cert_no": "제26-04호",
+    "grade": {
+      "tapping": 1,
+      "ball": 1
+    },
+    "slab": {
+      "thickness": 210,
+      "strength": 24,
+      "density": 2300
+    },
+    "elastic": {
+      "thickness": 55,
+      "dynamic_stiffness": 2.9,
+      "dynamic_stiffness_measured_min": null,
+      "dynamic_stiffness_measured_max": null,
+      "loss_factor": 0.2,
+      "loss_factor_measured_min": null,
+      "loss_factor_measured_max": null
+    },
+    "subslab_layers": [],
+    "floating_layers": [
+      {
+        "name": "마감모르타르",
+        "thickness": 55,
+        "strength": 16.0,
+        "density": 2100
+      }
+    ]
+  },
+  "K-60 System": {
+    "source": "builtin",
+    "cert_no": "제26-05호",
+    "grade": {
+      "tapping": 1,
+      "ball": 3
+    },
+    "slab": {
+      "thickness": 210,
+      "strength": 24,
+      "density": 2300
+    },
+    "elastic": {
+      "thickness": 60,
+      "dynamic_stiffness": 4.1,
+      "dynamic_stiffness_measured_min": 3.5,
+      "dynamic_stiffness_measured_max": 3.5,
+      "loss_factor": 0.2,
+      "loss_factor_measured_min": 0.19,
+      "loss_factor_measured_max": 0.19
+    },
+    "subslab_layers": [],
+    "floating_layers": [
+      {
+        "name": "마감모르타르",
+        "thickness": 50,
+        "strength": 14.9,
+        "density": 2100
+      }
+    ]
+  },
+  "EK-EPP404 시스템": {
+    "source": "builtin",
+    "cert_no": "KF22-0819-1",
+    "grade": {
+      "tapping": 1,
+      "ball": 3
+    },
+    "slab": {
+      "thickness": 210,
+      "strength": 24,
+      "density": 2300
+    },
+    "elastic": {
+      "thickness": 40,
+      "dynamic_stiffness": 26.4,
+      "dynamic_stiffness_measured_min": null,
+      "dynamic_stiffness_measured_max": null,
+      "loss_factor": 0.2,
+      "loss_factor_measured_min": null,
+      "loss_factor_measured_max": null
+    },
+    "subslab_layers": [],
+    "floating_layers": [
+      {
+        "name": "1차 (HD)모르타르",
+        "thickness": 40,
+        "strength": 17.7,
+        "density": 2300
+      },
+      {
+        "name": "마감 (HD)모르타르",
+        "thickness": 40,
+        "strength": 14.4,
+        "density": 2300
+      }
+    ]
+  },
+  "EPSK-DW301 시스템": {
+    "source": "builtin",
+    "cert_no": "KF22-0819-2",
+    "grade": {
+      "tapping": 1,
+      "ball": 3
+    },
+    "slab": {
+      "thickness": 210,
+      "strength": 24,
+      "density": 2300
+    },
+    "elastic": {
+      "thickness": 30,
+      "dynamic_stiffness": 20.5,
+      "dynamic_stiffness_measured_min": null,
+      "dynamic_stiffness_measured_max": null,
+      "loss_factor": 0.2,
+      "loss_factor_measured_min": null,
+      "loss_factor_measured_max": null
+    },
+    "subslab_layers": [],
+    "floating_layers": [
+      {
+        "name": "경량 기포콘크리트",
+        "thickness": 40,
+        "strength": 1.0,
+        "density": 500
+      },
+      {
+        "name": "마감 모르타르",
+        "thickness": 40,
+        "strength": 14.3,
+        "density": 2100
+      }
+    ]
+  },
+  "RMFGNZ-S70WK": {
+    "source": "builtin",
+    "cert_no": "KF22-0823-1",
+    "grade": {
+      "tapping": 1,
+      "ball": 2
+    },
+    "slab": {
+      "thickness": 210,
+      "strength": 24,
+      "density": 2300
+    },
+    "elastic": {
+      "thickness": 72,
+      "dynamic_stiffness": 22.7,
+      "dynamic_stiffness_measured_min": null,
+      "dynamic_stiffness_measured_max": null,
+      "loss_factor": 0.2,
+      "loss_factor_measured_min": null,
+      "loss_factor_measured_max": null
+    },
+    "subslab_layers": [],
+    "floating_layers": [
+      {
+        "name": "마감 모르타르",
+        "thickness": 40,
+        "strength": 15.1,
+        "density": 2100
+      }
+    ]
+  },
+  "META-DS1 시스템": {
+    "source": "builtin",
+    "cert_no": "KF22-0826-1",
+    "grade": {
+      "tapping": 1,
+      "ball": 3
+    },
+    "slab": {
+      "thickness": 210,
+      "strength": 24,
+      "density": 2300
+    },
+    "elastic": {
+      "thickness": 30,
+      "dynamic_stiffness": 22.4,
+      "dynamic_stiffness_measured_min": null,
+      "dynamic_stiffness_measured_max": null,
+      "loss_factor": 0.2,
+      "loss_factor_measured_min": null,
+      "loss_factor_measured_max": null
+    },
+    "subslab_layers": [
+      {
+        "name": "1차 (HD)모르타르",
+        "thickness": 40,
+        "strength": 14.3,
+        "density": 2300
+      }
+    ],
+    "floating_layers": [
+      {
+        "name": "마감 (HD)모르타르",
+        "thickness": 40,
+        "strength": 14.4,
+        "density": 2300
+      }
+    ]
+  },
+  "HS30H1-210": {
+    "source": "builtin",
+    "cert_no": "KF22-0902-1",
+    "grade": {
+      "tapping": 2,
+      "ball": 4
+    },
+    "slab": {
+      "thickness": 210,
+      "strength": 24,
+      "density": 2300
+    },
+    "elastic": {
+      "thickness": 30,
+      "dynamic_stiffness": 19.5,
+      "dynamic_stiffness_measured_min": null,
+      "dynamic_stiffness_measured_max": null,
+      "loss_factor": 0.2,
+      "loss_factor_measured_min": null,
+      "loss_factor_measured_max": null
+    },
+    "subslab_layers": [],
+    "floating_layers": [
+      {
+        "name": "경량기포콘크리트",
+        "thickness": 40,
+        "strength": 1.43,
+        "density": 500
+      },
+      {
+        "name": "마감모르타르",
+        "thickness": 40,
+        "strength": 16.2,
+        "density": 2100
+      }
+    ]
+  },
+  "HS40H2-210": {
+    "source": "builtin",
+    "cert_no": "KF22-0902-2",
+    "grade": {
+      "tapping": 3,
+      "ball": 4
+    },
+    "slab": {
+      "thickness": 210,
+      "strength": 24,
+      "density": 2300
+    },
+    "elastic": {
+      "thickness": 40,
+      "dynamic_stiffness": 14.9,
+      "dynamic_stiffness_measured_min": null,
+      "dynamic_stiffness_measured_max": null,
+      "loss_factor": 0.2,
+      "loss_factor_measured_min": null,
+      "loss_factor_measured_max": null
+    },
+    "subslab_layers": [],
+    "floating_layers": [
+      {
+        "name": "경량기포콘크리트",
+        "thickness": 30,
+        "strength": 1.43,
+        "density": 500
+      },
+      {
+        "name": "마감모르타르",
+        "thickness": 40,
+        "strength": 16.2,
+        "density": 2100
+      }
+    ]
+  },
+  "민철내(RS-70) 릴리프시스템": {
+    "source": "builtin",
+    "cert_no": "KF23-0518-1",
+    "grade": {
+      "tapping": null,
+      "ball": null
+    },
+    "slab": {
+      "thickness": 210,
+      "strength": 24,
+      "density": 2300
+    },
+    "elastic": {
+      "thickness": 65,
+      "dynamic_stiffness": 16.4,
+      "dynamic_stiffness_measured_min": null,
+      "dynamic_stiffness_measured_max": null,
+      "loss_factor": 0.1,
+      "loss_factor_measured_min": null,
+      "loss_factor_measured_max": null
+    },
+    "subslab_layers": [],
+    "floating_layers": [
+      {
+        "name": "마감모르타르",
+        "thickness": 45,
+        "strength": 13.9,
+        "density": 2100
+      }
+    ]
+  },
+  "MRD-AM36-M2": {
+    "source": "builtin",
+    "cert_no": "KF23-0526-1",
+    "grade": {
+      "tapping": null,
+      "ball": null
+    },
+    "slab": {
+      "thickness": 210,
+      "strength": 24,
+      "density": 2300
+    },
+    "elastic": {
+      "thickness": 36,
+      "dynamic_stiffness": 8.0,
+      "dynamic_stiffness_measured_min": null,
+      "dynamic_stiffness_measured_max": null,
+      "loss_factor": 0.1,
+      "loss_factor_measured_min": null,
+      "loss_factor_measured_max": null
+    },
+    "subslab_layers": [],
+    "floating_layers": [
+      {
+        "name": "경량 기포콘크리트",
+        "thickness": 40,
+        "strength": 1.4,
+        "density": 500
+      },
+      {
+        "name": "마감모르타르",
+        "thickness": 40,
+        "strength": 15.8,
+        "density": 2100
+      }
+    ]
+  },
+  "MRD-AM42-M3": {
+    "source": "builtin",
+    "cert_no": "KF23-0705-1",
+    "grade": {
+      "tapping": null,
+      "ball": null
+    },
+    "slab": {
+      "thickness": 210,
+      "strength": 24,
+      "density": 2300
+    },
+    "elastic": {
+      "thickness": 42,
+      "dynamic_stiffness": 10.6,
+      "dynamic_stiffness_measured_min": null,
+      "dynamic_stiffness_measured_max": null,
+      "loss_factor": 0.1,
+      "loss_factor_measured_min": null,
+      "loss_factor_measured_max": null
+    },
+    "subslab_layers": [],
+    "floating_layers": [
+      {
+        "name": "경량 기포콘크리트",
+        "thickness": 40,
+        "strength": 1.4,
+        "density": 500
+      },
+      {
+        "name": "마감모르타르",
+        "thickness": 40,
+        "strength": 9.6,
+        "density": 2100
+      }
+    ]
+  },
+  "BESTY TOP BOARD": {
+    "source": "builtin",
+    "cert_no": "KF23-0828-1",
+    "grade": {
+      "tapping": null,
+      "ball": null
+    },
+    "slab": {
+      "thickness": 210,
+      "strength": 24,
+      "density": 2300
+    },
+    "elastic": {
+      "thickness": 30,
+      "dynamic_stiffness": 11.5,
+      "dynamic_stiffness_measured_min": null,
+      "dynamic_stiffness_measured_max": null,
+      "loss_factor": 0.1,
+      "loss_factor_measured_min": null,
+      "loss_factor_measured_max": null
+    },
+    "subslab_layers": [],
+    "floating_layers": [
+      {
+        "name": "1차 모르타르",
+        "thickness": 40,
+        "strength": 23.7,
+        "density": 2100
+      },
+      {
+        "name": "마감 모르타르",
+        "thickness": 40,
+        "strength": 24.5,
+        "density": 2100
+      }
+    ]
+  },
+  "MRD-AM60-M4": {
+    "source": "builtin",
+    "cert_no": "KF23-0906-1",
+    "grade": {
+      "tapping": null,
+      "ball": null
+    },
+    "slab": {
+      "thickness": 210,
+      "strength": 24,
+      "density": 2300
+    },
+    "elastic": {
+      "thickness": 60,
+      "dynamic_stiffness": 14.4,
+      "dynamic_stiffness_measured_min": null,
+      "dynamic_stiffness_measured_max": null,
+      "loss_factor": 0.1,
+      "loss_factor_measured_min": null,
+      "loss_factor_measured_max": null
+    },
+    "subslab_layers": [],
+    "floating_layers": [
+      {
+        "name": "마감 모르타르",
+        "thickness": 40,
+        "strength": 13.8,
+        "density": 2100
+      }
+    ]
+  },
+  "PRIME BOARD PLUS": {
+    "source": "builtin",
+    "cert_no": "KF23-0906-2",
+    "grade": {
+      "tapping": null,
+      "ball": null
+    },
+    "slab": {
+      "thickness": 210,
+      "strength": 24,
+      "density": 2300
+    },
+    "elastic": {
+      "thickness": 40,
+      "dynamic_stiffness": 16.7,
+      "dynamic_stiffness_measured_min": null,
+      "dynamic_stiffness_measured_max": null,
+      "loss_factor": 0.1,
+      "loss_factor_measured_min": null,
+      "loss_factor_measured_max": null
+    },
+    "subslab_layers": [
+      {
+        "name": "1차 HD모르타르",
+        "thickness": 30,
+        "strength": 20.0,
+        "density": 2300
+      }
+    ],
+    "floating_layers": [
+      {
+        "name": "2차 HD모르타르",
+        "thickness": 40,
+        "strength": 16.6,
+        "density": 2300
+      }
+    ]
+  },
+  "NEOCALM BOARD PLUS": {
+    "source": "builtin",
+    "cert_no": "KF23-0906-3",
+    "grade": {
+      "tapping": null,
+      "ball": null
+    },
+    "slab": {
+      "thickness": 210,
+      "strength": 24,
+      "density": 2300
+    },
+    "elastic": {
+      "thickness": 40,
+      "dynamic_stiffness": 16.7,
+      "dynamic_stiffness_measured_min": null,
+      "dynamic_stiffness_measured_max": null,
+      "loss_factor": 0.1,
+      "loss_factor_measured_min": null,
+      "loss_factor_measured_max": null
+    },
+    "subslab_layers": [],
+    "floating_layers": [
+      {
+        "name": "경량기포콘크리트",
+        "thickness": 30,
+        "strength": 1.4,
+        "density": 500
+      },
+      {
+        "name": "마감 모르타르",
+        "thickness": 40,
+        "strength": 14.6,
+        "density": 2100
+      }
+    ]
+  },
+  "NGM PW2 보드": {
+    "source": "builtin",
+    "cert_no": "KF23-0920-1",
+    "grade": {
+      "tapping": null,
+      "ball": null
+    },
+    "slab": {
+      "thickness": 210,
+      "strength": 24,
+      "density": 2300
+    },
+    "elastic": {
+      "thickness": 67,
+      "dynamic_stiffness": 15.8,
+      "dynamic_stiffness_measured_min": null,
+      "dynamic_stiffness_measured_max": null,
+      "loss_factor": 0.3,
+      "loss_factor_measured_min": null,
+      "loss_factor_measured_max": null
+    },
+    "subslab_layers": [],
+    "floating_layers": [
+      {
+        "name": "마감모르타르",
+        "thickness": 64,
+        "strength": 12.9,
+        "density": 2100
+      }
+    ]
+  },
+  "GSIP-DMH2-140B": {
+    "source": "builtin",
+    "cert_no": "KF23-0920-2",
+    "grade": {
+      "tapping": null,
+      "ball": null
+    },
+    "slab": {
+      "thickness": 210,
+      "strength": 24,
+      "density": 2300
+    },
+    "elastic": {
+      "thickness": 60,
+      "dynamic_stiffness": 6.9,
+      "dynamic_stiffness_measured_min": null,
+      "dynamic_stiffness_measured_max": null,
+      "loss_factor": 0.1,
+      "loss_factor_measured_min": null,
+      "loss_factor_measured_max": null
+    },
+    "subslab_layers": [],
+    "floating_layers": [
+      {
+        "name": "마감 모르타르(고밀도)",
+        "thickness": 80,
+        "strength": 16.3,
+        "density": 2300
+      }
+    ]
+  },
+  "래오GL30": {
+    "source": "builtin",
+    "cert_no": "KF23-1123-1",
+    "grade": {
+      "tapping": null,
+      "ball": null
+    },
+    "slab": {
+      "thickness": 210,
+      "strength": 24,
+      "density": 2300
+    },
+    "elastic": {
+      "thickness": 30,
+      "dynamic_stiffness": 17.1,
+      "dynamic_stiffness_measured_min": null,
+      "dynamic_stiffness_measured_max": null,
+      "loss_factor": 0.1,
+      "loss_factor_measured_min": null,
+      "loss_factor_measured_max": null
+    },
+    "subslab_layers": [],
+    "floating_layers": [
+      {
+        "name": "경량기포콘크리트",
+        "thickness": 40,
+        "strength": 1.4,
+        "density": 500
+      },
+      {
+        "name": "마감모르타르",
+        "thickness": 40,
+        "strength": 15.6,
+        "density": 2100
+      }
+    ]
+  },
+  "민철내(RS-80) 릴리프시스템": {
+    "source": "builtin",
+    "cert_no": "KF23-1128-1",
+    "grade": {
+      "tapping": null,
+      "ball": null
+    },
+    "slab": {
+      "thickness": 210,
+      "strength": 24,
+      "density": 2300
+    },
+    "elastic": {
+      "thickness": 70,
+      "dynamic_stiffness": 18.1,
+      "dynamic_stiffness_measured_min": null,
+      "dynamic_stiffness_measured_max": null,
+      "loss_factor": 0.1,
+      "loss_factor_measured_min": null,
+      "loss_factor_measured_max": null
+    },
+    "subslab_layers": [],
+    "floating_layers": [
+      {
+        "name": "마감모르타르",
+        "thickness": 40,
+        "strength": 12.3,
+        "density": 2100
+      }
+    ]
+  },
+  "TOP70WW-690": {
+    "source": "builtin",
+    "cert_no": "KF23-1201-4",
+    "grade": {
+      "tapping": null,
+      "ball": null
+    },
+    "slab": {
+      "thickness": 210,
+      "strength": 24,
+      "density": 2300
+    },
+    "elastic": {
+      "thickness": 70,
+      "dynamic_stiffness": 16.5,
+      "dynamic_stiffness_measured_min": null,
+      "dynamic_stiffness_measured_max": null,
+      "loss_factor": 0.2,
+      "loss_factor_measured_min": null,
+      "loss_factor_measured_max": null
+    },
+    "subslab_layers": [],
+    "floating_layers": [
+      {
+        "name": "마감 모르타르",
+        "thickness": 40,
+        "strength": 17.0,
+        "density": 2100
+      }
+    ]
+  },
+  "I-NRD SYSTEM-I": {
+    "source": "builtin",
+    "cert_no": "KF23-1211-1",
+    "grade": {
+      "tapping": null,
+      "ball": null
+    },
+    "slab": {
+      "thickness": 210,
+      "strength": 24,
+      "density": 2300
+    },
+    "elastic": {
+      "thickness": 70,
+      "dynamic_stiffness": 9.9,
+      "dynamic_stiffness_measured_min": null,
+      "dynamic_stiffness_measured_max": null,
+      "loss_factor": 0.1,
+      "loss_factor_measured_min": null,
+      "loss_factor_measured_max": null
+    },
+    "subslab_layers": [],
+    "floating_layers": [
+      {
+        "name": "마감 모르타르",
+        "thickness": 40,
+        "strength": 13.7,
+        "density": 2100
+      }
+    ]
+  },
+  "I-NRD SYSTEM-Ⅱ": {
+    "source": "builtin",
+    "cert_no": "KF23-1211-2",
+    "grade": {
+      "tapping": null,
+      "ball": null
+    },
+    "slab": {
+      "thickness": 210,
+      "strength": 24,
+      "density": 2300
+    },
+    "elastic": {
+      "thickness": 70,
+      "dynamic_stiffness": 9.9,
+      "dynamic_stiffness_measured_min": null,
+      "dynamic_stiffness_measured_max": null,
+      "loss_factor": 0.1,
+      "loss_factor_measured_min": null,
+      "loss_factor_measured_max": null
+    },
+    "subslab_layers": [],
+    "floating_layers": [
+      {
+        "name": "HD모르타르",
+        "thickness": 40,
+        "strength": 20.3,
+        "density": 2300
+      }
+    ]
+  },
+  "DI-HDJ SYSTEM-Ⅲ": {
+    "source": "builtin",
+    "cert_no": "KF23-1211-3",
+    "grade": {
+      "tapping": null,
+      "ball": null
+    },
+    "slab": {
+      "thickness": 210,
+      "strength": 24,
+      "density": 2300
+    },
+    "elastic": {
+      "thickness": 60,
+      "dynamic_stiffness": 22.0,
+      "dynamic_stiffness_measured_min": null,
+      "dynamic_stiffness_measured_max": null,
+      "loss_factor": 0.1,
+      "loss_factor_measured_min": null,
+      "loss_factor_measured_max": null
+    },
+    "subslab_layers": [],
+    "floating_layers": [
+      {
+        "name": "마감 모르타르",
+        "thickness": 50,
+        "strength": 13.7,
+        "density": 2100
+      }
+    ]
+  },
+  "IJ-Noise40": {
+    "source": "builtin",
+    "cert_no": "KF23-1226-1",
+    "grade": {
+      "tapping": null,
+      "ball": null
+    },
+    "slab": {
+      "thickness": 210,
+      "strength": 24,
+      "density": 2300
+    },
+    "elastic": {
+      "thickness": 40,
+      "dynamic_stiffness": 16.7,
+      "dynamic_stiffness_measured_min": null,
+      "dynamic_stiffness_measured_max": null,
+      "loss_factor": 0.1,
+      "loss_factor_measured_min": null,
+      "loss_factor_measured_max": null
+    },
+    "subslab_layers": [],
+    "floating_layers": [
+      {
+        "name": "수지몰탈기포",
+        "thickness": 30,
+        "strength": 1.2,
+        "density": 500
+      },
+      {
+        "name": "마감 모르타르",
+        "thickness": 40,
+        "strength": 13.4,
+        "density": 2100
+      }
+    ]
+  },
+  "MRD-AM36-M1": {
+    "source": "builtin",
+    "cert_no": "KF23-1228-1",
+    "grade": {
+      "tapping": 1,
+      "ball": 3
+    },
+    "slab": {
+      "thickness": 210,
+      "strength": 24,
+      "density": 2300
+    },
+    "elastic": {
+      "thickness": 37,
+      "dynamic_stiffness": 12.2,
+      "dynamic_stiffness_measured_min": null,
+      "dynamic_stiffness_measured_max": null,
+      "loss_factor": 0.1,
+      "loss_factor_measured_min": null,
+      "loss_factor_measured_max": null
+    },
+    "subslab_layers": [],
+    "floating_layers": [
+      {
+        "name": "경량기포콘크리트",
+        "thickness": 40,
+        "strength": 1.3,
+        "density": 500
+      },
+      {
+        "name": "마감모르타르",
+        "thickness": 40,
+        "strength": 17.4,
+        "density": 2100
+      }
+    ]
+  },
+  "SGO-V3 System": {
+    "source": "builtin",
+    "cert_no": "KF24-0102-1",
+    "grade": {
+      "tapping": null,
+      "ball": null
+    },
+    "slab": {
+      "thickness": 210,
+      "strength": 24,
+      "density": 2300
+    },
+    "elastic": {
+      "thickness": 60,
+      "dynamic_stiffness": 10.4,
+      "dynamic_stiffness_measured_min": null,
+      "dynamic_stiffness_measured_max": null,
+      "loss_factor": 0.1,
+      "loss_factor_measured_min": null,
+      "loss_factor_measured_max": null
+    },
+    "subslab_layers": [],
+    "floating_layers": [
+      {
+        "name": "마감 모르타르",
+        "thickness": 50,
+        "strength": 21.8,
+        "density": 2100
+      }
+    ]
+  },
+  "SGO-V4 System": {
+    "source": "builtin",
+    "cert_no": "KF24-0102-2",
+    "grade": {
+      "tapping": null,
+      "ball": null
+    },
+    "slab": {
+      "thickness": 210,
+      "strength": 24,
+      "density": 2300
+    },
+    "elastic": {
+      "thickness": 70,
+      "dynamic_stiffness": 17.4,
+      "dynamic_stiffness_measured_min": null,
+      "dynamic_stiffness_measured_max": null,
+      "loss_factor": 0.1,
+      "loss_factor_measured_min": null,
+      "loss_factor_measured_max": null
+    },
+    "subslab_layers": [],
+    "floating_layers": [
+      {
+        "name": "마감 모르타르",
+        "thickness": 50,
+        "strength": 20.3,
+        "density": 2100
+      }
+    ]
+  },
+  "EPSK-DW401 시스템": {
+    "source": "builtin",
+    "cert_no": "KF24-0708-2",
+    "grade": {
+      "tapping": null,
+      "ball": null
+    },
+    "slab": {
+      "thickness": 210,
+      "strength": 24,
+      "density": 2300
+    },
+    "elastic": {
+      "thickness": 40,
+      "dynamic_stiffness": 35.5,
+      "dynamic_stiffness_measured_min": null,
+      "dynamic_stiffness_measured_max": null,
+      "loss_factor": 0.1,
+      "loss_factor_measured_min": null,
+      "loss_factor_measured_max": null
+    },
+    "subslab_layers": [],
+    "floating_layers": [
+      {
+        "name": "1차 프리미엄 모르타르",
+        "thickness": 30,
+        "strength": 51.3,
+        "density": 2100
+      },
+      {
+        "name": "마감 프리미엄 모르타르",
+        "thickness": 40,
+        "strength": 24.9,
+        "density": 2100
+      }
+    ]
+  },
+  "EK-EPPS601 시스템": {
+    "source": "builtin",
+    "cert_no": "KF24-0708-3",
+    "grade": {
+      "tapping": null,
+      "ball": null
+    },
+    "slab": {
+      "thickness": 210,
+      "strength": 24,
+      "density": 2300
+    },
+    "elastic": {
+      "thickness": 60,
+      "dynamic_stiffness": 15.5,
+      "dynamic_stiffness_measured_min": null,
+      "dynamic_stiffness_measured_max": null,
+      "loss_factor": 0.1,
+      "loss_factor_measured_min": null,
+      "loss_factor_measured_max": null
+    },
+    "subslab_layers": [],
+    "floating_layers": [
+      {
+        "name": "마감 모르타르",
+        "thickness": 50,
+        "strength": 17.7,
+        "density": 2100
+      }
+    ]
+  },
+  "민철내(RS-60) 릴리프시스템": {
+    "source": "builtin",
+    "cert_no": "KF24-0709-1",
+    "grade": {
+      "tapping": null,
+      "ball": null
+    },
+    "slab": {
+      "thickness": 210,
+      "strength": 24,
+      "density": 2300
+    },
+    "elastic": {
+      "thickness": 70,
+      "dynamic_stiffness": 19.3,
+      "dynamic_stiffness_measured_min": null,
+      "dynamic_stiffness_measured_max": null,
+      "loss_factor": 0.1,
+      "loss_factor_measured_min": null,
+      "loss_factor_measured_max": null
+    },
+    "subslab_layers": [],
+    "floating_layers": [
+      {
+        "name": "마감모르타르",
+        "thickness": 40,
+        "strength": 13.2,
+        "density": 2100
+      }
+    ]
+  },
+  "HL-DS-META-02 시스템": {
+    "source": "builtin",
+    "cert_no": "KF23-0728-1",
+    "grade": {
+      "tapping": 3,
+      "ball": 4
+    },
+    "slab": {
+      "thickness": 210,
+      "strength": 24,
+      "density": 2300
+    },
+    "elastic": {
+      "thickness": 40,
+      "dynamic_stiffness": 25.9,
+      "dynamic_stiffness_measured_min": null,
+      "dynamic_stiffness_measured_max": null,
+      "loss_factor": 0.1,
+      "loss_factor_measured_min": null,
+      "loss_factor_measured_max": null
+    },
+    "subslab_layers": [
+      {
+        "name": "1차 모르타르",
+        "thickness": 30,
+        "strength": 14.5,
+        "density": 2100
+      }
+    ],
+    "floating_layers": [
+      {
+        "name": "마감 모르타르",
+        "thickness": 40,
+        "strength": 13.4,
+        "density": 2100
+      }
+    ]
+  },
+  "HL-DS-META-03 시스템": {
+    "source": "builtin",
+    "cert_no": "KF23-0728-2",
+    "grade": {
+      "tapping": 3,
+      "ball": 3
+    },
+    "slab": {
+      "thickness": 210,
+      "strength": 24,
+      "density": 2300
+    },
+    "elastic": {
+      "thickness": 40,
+      "dynamic_stiffness": 24.7,
+      "dynamic_stiffness_measured_min": null,
+      "dynamic_stiffness_measured_max": null,
+      "loss_factor": 0.2,
+      "loss_factor_measured_min": null,
+      "loss_factor_measured_max": null
+    },
+    "subslab_layers": [],
+    "floating_layers": [
+      {
+        "name": "1차 모르타르",
+        "thickness": 30,
+        "strength": 14.5,
+        "density": 2100
+      },
+      {
+        "name": "마감 모르타르",
+        "thickness": 40,
+        "strength": 13.4,
+        "density": 2100
+      }
+    ]
+  },
+  "DS-HL-META-01 시스템": {
+    "source": "builtin",
+    "cert_no": "KF23-1201-1",
+    "grade": {
+      "tapping": 1,
+      "ball": 3
+    },
+    "slab": {
+      "thickness": 210,
+      "strength": 24,
+      "density": 2300
+    },
+    "elastic": {
+      "thickness": 40,
+      "dynamic_stiffness": 20.2,
+      "dynamic_stiffness_measured_min": null,
+      "dynamic_stiffness_measured_max": null,
+      "loss_factor": 0.2,
+      "loss_factor_measured_min": null,
+      "loss_factor_measured_max": null
+    },
+    "subslab_layers": [],
+    "floating_layers": [
+      {
+        "name": "마감 모르타르",
+        "thickness": 70,
+        "strength": 14.3,
+        "density": 2100
+      }
+    ]
+  },
+  "DS-HL-META-02 시스템": {
+    "source": "builtin",
+    "cert_no": "KF23-1201-2",
+    "grade": {
+      "tapping": 1,
+      "ball": 3
+    },
+    "slab": {
+      "thickness": 210,
+      "strength": 24,
+      "density": 2300
+    },
+    "elastic": {
+      "thickness": 40,
+      "dynamic_stiffness": 19.5,
+      "dynamic_stiffness_measured_min": null,
+      "dynamic_stiffness_measured_max": null,
+      "loss_factor": 0.2,
+      "loss_factor_measured_min": null,
+      "loss_factor_measured_max": null
+    },
+    "subslab_layers": [],
+    "floating_layers": [
+      {
+        "name": "마감 모르타르",
+        "thickness": 70,
+        "strength": 14.3,
+        "density": 2100
+      }
+    ]
+  },
+  "DS-HL-META-03 시스템": {
+    "source": "builtin",
+    "cert_no": "KF23-1201-3",
+    "grade": {
+      "tapping": 1,
+      "ball": 3
+    },
+    "slab": {
+      "thickness": 210,
+      "strength": 24,
+      "density": 2300
+    },
+    "elastic": {
+      "thickness": 30,
+      "dynamic_stiffness": 18.1,
+      "dynamic_stiffness_measured_min": null,
+      "dynamic_stiffness_measured_max": null,
+      "loss_factor": 0.2,
+      "loss_factor_measured_min": null,
+      "loss_factor_measured_max": null
+    },
+    "subslab_layers": [],
+    "floating_layers": [
+      {
+        "name": "1차 모르타르",
+        "thickness": 40,
+        "strength": 14.3,
+        "density": 2100
+      },
+      {
+        "name": "마감 모르타르",
+        "thickness": 40,
+        "strength": 14.2,
+        "density": 2100
+      }
+    ]
+  },
+  "DI-DW-P40": {
+    "source": "builtin",
+    "cert_no": "KF21-0903-1",
+    "grade": {
+      "tapping": 1,
+      "ball": 3
+    },
+    "slab": {
+      "thickness": 210,
+      "strength": 24,
+      "density": 2300
+    },
+    "elastic": {
+      "thickness": 40,
+      "dynamic_stiffness": 23.8,
+      "dynamic_stiffness_measured_min": 17.4,
+      "dynamic_stiffness_measured_max": 17.4,
+      "loss_factor": 0.2,
+      "loss_factor_measured_min": 0.06,
+      "loss_factor_measured_max": 0.06
+    },
+    "subslab_layers": [],
+    "floating_layers": [
+      {
+        "name": "마감 모르타르",
+        "thickness": 70,
+        "strength": 13.8,
+        "density": 2100
+      }
+    ]
+  },
+  "DI-S40C SYSTEM": {
+    "source": "builtin",
+    "cert_no": "KF22-1116-1",
+    "grade": {
+      "tapping": 1,
+      "ball": 4
+    },
+    "slab": {
+      "thickness": 210,
+      "strength": 24,
+      "density": 2300
+    },
+    "elastic": {
+      "thickness": 34,
+      "dynamic_stiffness": 18.4,
+      "dynamic_stiffness_measured_min": null,
+      "dynamic_stiffness_measured_max": null,
+      "loss_factor": 0.2,
+      "loss_factor_measured_min": null,
+      "loss_factor_measured_max": null
+    },
+    "subslab_layers": [],
+    "floating_layers": [
+      {
+        "name": "1차 모르타르 (중량 모르타르)",
+        "thickness": 30,
+        "strength": 13.7,
+        "density": 2300
+      },
+      {
+        "name": "마감 모르타르 (중량 모르타르)",
+        "thickness": 40,
+        "strength": 14.1,
+        "density": 2300
+      }
+    ]
+  },
+  "DI-S50C SYSTEM": {
+    "source": "builtin",
+    "cert_no": "KF22-1116-2",
+    "grade": {
+      "tapping": 1,
+      "ball": 4
+    },
+    "slab": {
+      "thickness": 210,
+      "strength": 24,
+      "density": 2300
+    },
+    "elastic": {
+      "thickness": 44,
+      "dynamic_stiffness": 17.1,
+      "dynamic_stiffness_measured_min": null,
+      "dynamic_stiffness_measured_max": null,
+      "loss_factor": 0.2,
+      "loss_factor_measured_min": null,
+      "loss_factor_measured_max": null
+    },
+    "subslab_layers": [],
+    "floating_layers": [
+      {
+        "name": "마감 모르타르 (중량 모르타르)",
+        "thickness": 50,
+        "strength": 13.8,
+        "density": 2300
+      }
+    ]
+  },
+  "DI-S50F SYSTEM": {
+    "source": "builtin",
+    "cert_no": "KF22-1116-3",
+    "grade": {
+      "tapping": 1,
+      "ball": 3
+    },
+    "slab": {
+      "thickness": 210,
+      "strength": 24,
+      "density": 2300
+    },
+    "elastic": {
+      "thickness": 47,
+      "dynamic_stiffness": 13.6,
+      "dynamic_stiffness_measured_min": null,
+      "dynamic_stiffness_measured_max": null,
+      "loss_factor": 0.2,
+      "loss_factor_measured_min": null,
+      "loss_factor_measured_max": null
+    },
+    "subslab_layers": [],
+    "floating_layers": [
+      {
+        "name": "마감 모르타르 (중량 모르타르)",
+        "thickness": 50,
+        "strength": 14.1,
+        "density": 2300
+      }
+    ]
+  },
+  "I-NRD SYSTEM-Ⅲ": {
+    "source": "builtin",
+    "cert_no": "KF24-0805-1",
+    "grade": {
+      "tapping": 1,
+      "ball": 3
+    },
+    "slab": {
+      "thickness": 210,
+      "strength": 24,
+      "density": 2300
+    },
+    "elastic": {
+      "thickness": 40,
+      "dynamic_stiffness": 7.1,
+      "dynamic_stiffness_measured_min": null,
+      "dynamic_stiffness_measured_max": null,
+      "loss_factor": 0.2,
+      "loss_factor_measured_min": null,
+      "loss_factor_measured_max": null
+    },
+    "subslab_layers": [],
+    "floating_layers": [
+      {
+        "name": "마감 (HD)모르타르",
+        "thickness": 70,
+        "strength": 19.4,
+        "density": 2300
+      }
+    ]
+  },
+  "I-NRD SYSTEM-Ⅳ": {
+    "source": "builtin",
+    "cert_no": "KF24-0805-2",
+    "grade": {
+      "tapping": 2,
+      "ball": 3
+    },
+    "slab": {
+      "thickness": 210,
+      "strength": 24,
+      "density": 2300
+    },
+    "elastic": {
+      "thickness": 40,
+      "dynamic_stiffness": 7.1,
+      "dynamic_stiffness_measured_min": null,
+      "dynamic_stiffness_measured_max": null,
+      "loss_factor": 0.2,
+      "loss_factor_measured_min": null,
+      "loss_factor_measured_max": null
+    },
+    "subslab_layers": [],
+    "floating_layers": [
+      {
+        "name": "마감 (HD)모르타르",
+        "thickness": 70,
+        "strength": 19.4,
+        "density": 2300
+      }
+    ]
+  },
+  "성은 SN40 시스템": {
+    "source": "builtin",
+    "cert_no": "KF24-0816-1",
+    "grade": {
+      "tapping": null,
+      "ball": null
+    },
+    "slab": {
+      "thickness": 210,
+      "strength": 24,
+      "density": 2300
+    },
+    "elastic": {
+      "thickness": 42,
+      "dynamic_stiffness": 14.9,
+      "dynamic_stiffness_measured_min": null,
+      "dynamic_stiffness_measured_max": null,
+      "loss_factor": 0.2,
+      "loss_factor_measured_min": null,
+      "loss_factor_measured_max": null
+    },
+    "subslab_layers": [],
+    "floating_layers": [
+      {
+        "name": "경량기포콘크리트",
+        "thickness": 40,
+        "strength": 1.4,
+        "density": 500
+      },
+      {
+        "name": "마감모르타르",
+        "thickness": 40,
+        "strength": 17.3,
+        "density": 2100
+      }
+    ]
+  },
+  "DS-WM-META-01": {
+    "source": "builtin",
+    "cert_no": "KF24-0819-2",
+    "grade": {
+      "tapping": 3,
+      "ball": 4
+    },
+    "slab": {
+      "thickness": 210,
+      "strength": 24,
+      "density": 2300
+    },
+    "elastic": {
+      "thickness": 30,
+      "dynamic_stiffness": 17.9,
+      "dynamic_stiffness_measured_min": null,
+      "dynamic_stiffness_measured_max": null,
+      "loss_factor": 0.2,
+      "loss_factor_measured_min": null,
+      "loss_factor_measured_max": null
+    },
+    "subslab_layers": [],
+    "floating_layers": [
+      {
+        "name": "1차 모르타르(고점성)",
+        "thickness": 40,
+        "strength": 2.8,
+        "density": 2100
+      },
+      {
+        "name": "마감 모르타르",
+        "thickness": 40,
+        "strength": 13.7,
+        "density": 2100
+      }
+    ]
+  },
+  "DS-HL-Anwoollim-META-04 시스템": {
+    "source": "builtin",
+    "cert_no": "KF24-0819-1",
+    "grade": {
+      "tapping": 3,
+      "ball": 4
+    },
+    "slab": {
+      "thickness": 210,
+      "strength": 24,
+      "density": 2300
+    },
+    "elastic": {
+      "thickness": 40,
+      "dynamic_stiffness": 18.6,
+      "dynamic_stiffness_measured_min": null,
+      "dynamic_stiffness_measured_max": null,
+      "loss_factor": 0.2,
+      "loss_factor_measured_min": null,
+      "loss_factor_measured_max": null
+    },
+    "subslab_layers": [],
+    "floating_layers": [
+      {
+        "name": "마감 모르타르",
+        "thickness": 70,
+        "strength": 13.8,
+        "density": 2100
+      }
+    ]
+  },
+  "DI-DW-C70 SYSTEM": {
+    "source": "builtin",
+    "cert_no": "KF24-0923-1",
+    "grade": {
+      "tapping": 1,
+      "ball": 2
+    },
+    "slab": {
+      "thickness": 210,
+      "strength": 24,
+      "density": 2300
+    },
+    "elastic": {
+      "thickness": 70,
+      "dynamic_stiffness": 16.1,
+      "dynamic_stiffness_measured_min": null,
+      "dynamic_stiffness_measured_max": null,
+      "loss_factor": 0.1,
+      "loss_factor_measured_min": null,
+      "loss_factor_measured_max": null
+    },
+    "subslab_layers": [],
+    "floating_layers": [
+      {
+        "name": "마감 모르타르",
+        "thickness": 40,
+        "strength": 14.2,
+        "density": 2100
+      }
+    ]
+  },
+  "DI-DW-P402": {
+    "source": "builtin",
+    "cert_no": "KF24-0923-2",
+    "grade": {
+      "tapping": 2,
+      "ball": 3
+    },
+    "slab": {
+      "thickness": 210,
+      "strength": 24,
+      "density": 2300
+    },
+    "elastic": {
+      "thickness": 40,
+      "dynamic_stiffness": 25.9,
+      "dynamic_stiffness_measured_min": null,
+      "dynamic_stiffness_measured_max": null,
+      "loss_factor": 0.2,
+      "loss_factor_measured_min": null,
+      "loss_factor_measured_max": null
+    },
+    "subslab_layers": [],
+    "floating_layers": [
+      {
+        "name": "마감 모르타르",
+        "thickness": 70,
+        "strength": 14.2,
+        "density": 2100
+      }
+    ]
+  },
+  "I-NRD SYSTEM-V": {
+    "source": "builtin",
+    "cert_no": "KF24-1010-1",
+    "grade": {
+      "tapping": 1,
+      "ball": 2
+    },
+    "slab": {
+      "thickness": 210,
+      "strength": 24,
+      "density": 2300
+    },
+    "elastic": {
+      "thickness": 70,
+      "dynamic_stiffness": 16.1,
+      "dynamic_stiffness_measured_min": null,
+      "dynamic_stiffness_measured_max": null,
+      "loss_factor": 0.1,
+      "loss_factor_measured_min": null,
+      "loss_factor_measured_max": null
+    },
+    "subslab_layers": [],
+    "floating_layers": [
+      {
+        "name": "마감 모르타르",
+        "thickness": 40,
+        "strength": 13.1,
+        "density": 2100
+      }
+    ]
+  },
+  "I-NRD SYSTEM-VI": {
+    "source": "builtin",
+    "cert_no": "KF24-1010-2",
+    "grade": {
+      "tapping": 1,
+      "ball": 2
+    },
+    "slab": {
+      "thickness": 210,
+      "strength": 24,
+      "density": 2300
+    },
+    "elastic": {
+      "thickness": 70,
+      "dynamic_stiffness": 15.2,
+      "dynamic_stiffness_measured_min": 9.7,
+      "dynamic_stiffness_measured_max": 9.7,
+      "loss_factor": 0.1,
+      "loss_factor_measured_min": 0.07,
+      "loss_factor_measured_max": 0.07
+    },
+    "subslab_layers": [],
+    "floating_layers": [
+      {
+        "name": "마감 모르타르",
+        "thickness": 40,
+        "strength": 13.1,
+        "density": 2100
+      }
+    ]
+  },
+  "DI-HDJ SYSTEM-V": {
+    "source": "builtin",
+    "cert_no": "KF24-1010-3",
+    "grade": {
+      "tapping": 1,
+      "ball": 3
+    },
+    "slab": {
+      "thickness": 210,
+      "strength": 24,
+      "density": 2300
+    },
+    "elastic": {
+      "thickness": 40,
+      "dynamic_stiffness": 23.9,
+      "dynamic_stiffness_measured_min": null,
+      "dynamic_stiffness_measured_max": null,
+      "loss_factor": 0.2,
+      "loss_factor_measured_min": null,
+      "loss_factor_measured_max": null
+    },
+    "subslab_layers": [],
+    "floating_layers": [
+      {
+        "name": "경량기포콘크리트",
+        "thickness": 30,
+        "strength": 1.3,
+        "density": 500
+      },
+      {
+        "name": "마감 모르타르",
+        "thickness": 40,
+        "strength": 13.1,
+        "density": 2100
+      }
+    ]
+  },
+  "BO-BS-01-SYSTEM": {
+    "source": "builtin",
+    "cert_no": "KF24-1029-1",
+    "grade": {
+      "tapping": 1,
+      "ball": 3
+    },
+    "slab": {
+      "thickness": 210,
+      "strength": 24,
+      "density": 2300
+    },
+    "elastic": {
+      "thickness": 60,
+      "dynamic_stiffness": 29.5,
+      "dynamic_stiffness_measured_min": null,
+      "dynamic_stiffness_measured_max": null,
+      "loss_factor": 0.1,
+      "loss_factor_measured_min": null,
+      "loss_factor_measured_max": null
+    },
+    "subslab_layers": [],
+    "floating_layers": [
+      {
+        "name": "마감 모르타르",
+        "thickness": 50,
+        "strength": 12.6,
+        "density": 2100
+      }
+    ]
+  },
+  "BESTY TOP BOARD-Ⅱ": {
+    "source": "builtin",
+    "cert_no": "KF24-1108-1",
+    "grade": {
+      "tapping": 1,
+      "ball": 3
+    },
+    "slab": {
+      "thickness": 210,
+      "strength": 24,
+      "density": 2300
+    },
+    "elastic": {
+      "thickness": 40,
+      "dynamic_stiffness": 17.5,
+      "dynamic_stiffness_measured_min": null,
+      "dynamic_stiffness_measured_max": null,
+      "loss_factor": 0.1,
+      "loss_factor_measured_min": null,
+      "loss_factor_measured_max": null
+    },
+    "subslab_layers": [],
+    "floating_layers": [
+      {
+        "name": "1차 모르타르",
+        "thickness": 30,
+        "strength": 24.3,
+        "density": 2100
+      },
+      {
+        "name": "마감 모르타르",
+        "thickness": 40,
+        "strength": 23.1,
+        "density": 2100
+      }
+    ]
+  },
+  "JS SYSTEM P-1": {
+    "source": "builtin",
+    "cert_no": "KF24-1231-1",
+    "grade": {
+      "tapping": 2,
+      "ball": 3
+    },
+    "slab": {
+      "thickness": 210,
+      "strength": 24,
+      "density": 2300
+    },
+    "elastic": {
+      "thickness": 30,
+      "dynamic_stiffness": 22.7,
+      "dynamic_stiffness_measured_min": null,
+      "dynamic_stiffness_measured_max": null,
+      "loss_factor": 0.2,
+      "loss_factor_measured_min": null,
+      "loss_factor_measured_max": null
+    },
+    "subslab_layers": [],
+    "floating_layers": [
+      {
+        "name": "경량기포콘크리트",
+        "thickness": 40,
+        "strength": 1.4,
+        "density": 500
+      },
+      {
+        "name": "마감 모르타르",
+        "thickness": 40,
+        "strength": 13.2,
+        "density": 2100
+      }
+    ]
+  },
+  "ICT-219": {
+    "source": "builtin",
+    "cert_no": "KF25-0508-1",
+    "grade": {
+      "tapping": 1,
+      "ball": 2
+    },
+    "slab": {
+      "thickness": 210,
+      "strength": 24,
+      "density": 2300
+    },
+    "elastic": {
+      "thickness": 56.5,
+      "dynamic_stiffness": 85.5,
+      "dynamic_stiffness_measured_min": null,
+      "dynamic_stiffness_measured_max": null,
+      "loss_factor": 0.2,
+      "loss_factor_measured_min": null,
+      "loss_factor_measured_max": null
+    },
+    "subslab_layers": [],
+    "floating_layers": [
+      {
+        "name": "마감 모르타르",
+        "thickness": 53.5,
+        "strength": 14.3,
+        "density": 2100
+      }
+    ]
+  },
+  "NonNo-SP60": {
+    "source": "builtin",
+    "cert_no": "KF25-0610-1",
+    "grade": {
+      "tapping": 1,
+      "ball": 1
+    },
+    "slab": {
+      "thickness": 210,
+      "strength": 24,
+      "density": 2300
+    },
+    "elastic": {
+      "thickness": 60,
+      "dynamic_stiffness": 5.1,
+      "dynamic_stiffness_measured_min": null,
+      "dynamic_stiffness_measured_max": null,
+      "loss_factor": 0.1,
+      "loss_factor_measured_min": null,
+      "loss_factor_measured_max": null
+    },
+    "subslab_layers": [],
+    "floating_layers": [
+      {
+        "name": "마감 모르타르",
+        "thickness": 50,
+        "strength": 14.9,
+        "density": 2100
+      }
+    ]
+  },
+  "NonNo-LT500": {
+    "source": "builtin",
+    "cert_no": "KF25-0610-2",
+    "grade": {
+      "tapping": 1,
+      "ball": 1
+    },
+    "slab": {
+      "thickness": 210,
+      "strength": 24,
+      "density": 2300
+    },
+    "elastic": {
+      "thickness": 45,
+      "dynamic_stiffness": 5.1,
+      "dynamic_stiffness_measured_min": null,
+      "dynamic_stiffness_measured_max": null,
+      "loss_factor": 0.1,
+      "loss_factor_measured_min": null,
+      "loss_factor_measured_max": null
+    },
+    "subslab_layers": [],
+    "floating_layers": [
+      {
+        "name": "마감 모르타르",
+        "thickness": 65,
+        "strength": 15.2,
+        "density": 2100
+      }
+    ]
+  },
+  "AVS-FL603-40 시스템": {
+    "source": "builtin",
+    "cert_no": "KF25-0708-1",
+    "grade": {
+      "tapping": 1,
+      "ball": 2
+    },
+    "slab": {
+      "thickness": 210,
+      "strength": 24,
+      "density": 2300
+    },
+    "elastic": {
+      "thickness": 40,
+      "dynamic_stiffness": 5.7,
+      "dynamic_stiffness_measured_min": null,
+      "dynamic_stiffness_measured_max": null,
+      "loss_factor": 0.2,
+      "loss_factor_measured_min": null,
+      "loss_factor_measured_max": null
+    },
+    "subslab_layers": [],
+    "floating_layers": [
+      {
+        "name": "경량기포 콘크리트",
+        "thickness": 30,
+        "strength": 1.4,
+        "density": 500
+      },
+      {
+        "name": "마감 모르타르",
+        "thickness": 40,
+        "strength": 13.5,
+        "density": 2100
+      }
+    ]
+  },
+  "AVS-FL602 System": {
+    "source": "builtin",
+    "cert_no": "KF25-0213-2",
+    "grade": {
+      "tapping": 1,
+      "ball": 4
+    },
+    "slab": {
+      "thickness": 210,
+      "strength": 24,
+      "density": 2300
+    },
+    "elastic": {
+      "thickness": 63,
+      "dynamic_stiffness": 10.2,
+      "dynamic_stiffness_measured_min": null,
+      "dynamic_stiffness_measured_max": null,
+      "loss_factor": 0.1,
+      "loss_factor_measured_min": null,
+      "loss_factor_measured_max": null
+    },
+    "subslab_layers": [],
+    "floating_layers": [
+      {
+        "name": "마감 모르타르",
+        "thickness": 40,
+        "strength": 14.9,
+        "density": 2100
+      }
+    ]
+  },
+  "S3-MU30B3-280": {
+    "source": "builtin",
+    "cert_no": "KF17-0529-1",
+    "grade": {
+      "tapping": 1,
+      "ball": 3
+    },
+    "slab": {
+      "thickness": 280,
+      "strength": 24,
+      "density": 2300
+    },
+    "elastic": {
+      "thickness": 30,
+      "dynamic_stiffness": 30.1,
+      "dynamic_stiffness_measured_min": 27.9,
+      "dynamic_stiffness_measured_max": 27.9,
+      "loss_factor": 0.2,
+      "loss_factor_measured_min": 0.12,
+      "loss_factor_measured_max": 0.12
+    },
+    "subslab_layers": [],
+    "floating_layers": [
+      {
+        "name": "경량기포콘크리트",
+        "thickness": 40,
+        "strength": 0.9,
+        "density": 500
+      },
+      {
+        "name": "마감몰탈",
+        "thickness": 40,
+        "strength": 21.0,
+        "density": 2100
+      }
+    ]
+  },
+  "DI-Z30 system": {
+    "source": "builtin",
+    "cert_no": "KF20-0728-2",
+    "grade": {
+      "tapping": 1,
+      "ball": 3
+    },
+    "slab": {
+      "thickness": 210,
+      "strength": 24,
+      "density": 2300
+    },
+    "elastic": {
+      "thickness": 30,
+      "dynamic_stiffness": 30.0,
+      "dynamic_stiffness_measured_min": null,
+      "dynamic_stiffness_measured_max": null,
+      "loss_factor": 0.2,
+      "loss_factor_measured_min": null,
+      "loss_factor_measured_max": null
+    },
+    "subslab_layers": [],
+    "floating_layers": [
+      {
+        "name": "경량기포콘크리트",
+        "thickness": 40,
+        "strength": 1.4,
+        "density": 500
+      },
+      {
+        "name": "마감 모르타르",
+        "thickness": 40,
+        "strength": 13.8,
+        "density": 2100
+      }
+    ]
+  },
+  "S6-EV30B-210": {
+    "source": "builtin",
+    "cert_no": "KF17-0804-2",
+    "grade": {
+      "tapping": 1,
+      "ball": 3
+    },
+    "slab": {
+      "thickness": 210,
+      "strength": 24,
+      "density": 2300
+    },
+    "elastic": {
+      "thickness": 30,
+      "dynamic_stiffness": 22.8,
+      "dynamic_stiffness_measured_min": 18.0,
+      "dynamic_stiffness_measured_max": 18.0,
+      "loss_factor": 0.2,
+      "loss_factor_measured_min": 0.13,
+      "loss_factor_measured_max": 0.13
+    },
+    "subslab_layers": [],
+    "floating_layers": [
+      {
+        "name": "경량기포콘크리트",
+        "thickness": 40,
+        "strength": 1.4,
+        "density": 500
+      },
+      {
+        "name": "마감몰탈",
+        "thickness": 40,
+        "strength": 13.8,
+        "density": 2100
+      }
+    ]
+  },
+  "S6-HB60B2-210": {
+    "source": "builtin",
+    "cert_no": "KF17-0804-3",
+    "grade": {
+      "tapping": 1,
+      "ball": 2
+    },
+    "slab": {
+      "thickness": 210,
+      "strength": 24,
+      "density": 2300
+    },
+    "elastic": {
+      "thickness": 60,
+      "dynamic_stiffness": 19.1,
+      "dynamic_stiffness_measured_min": 14.3,
+      "dynamic_stiffness_measured_max": 15.4,
+      "loss_factor": 0.2,
+      "loss_factor_measured_min": 0.11,
+      "loss_factor_measured_max": 0.15
+    },
+    "subslab_layers": [],
+    "floating_layers": [
+      {
+        "name": "마감몰탈",
+        "thickness": 40,
+        "strength": 13.8,
+        "density": 2100
+      }
+    ]
+  },
+  "S6-OP60B2-210": {
+    "source": "builtin",
+    "cert_no": "KF17-1107-3",
+    "grade": {
+      "tapping": 1,
+      "ball": 2
+    },
+    "slab": {
+      "thickness": 210,
+      "strength": 24,
+      "density": 2300
+    },
+    "elastic": {
+      "thickness": 60,
+      "dynamic_stiffness": 17.8,
+      "dynamic_stiffness_measured_min": 10.2,
+      "dynamic_stiffness_measured_max": 10.2,
+      "loss_factor": 0.2,
+      "loss_factor_measured_min": 0.06,
+      "loss_factor_measured_max": 0.06
+    },
+    "subslab_layers": [],
+    "floating_layers": [
+      {
+        "name": "마감몰탈",
+        "thickness": 40,
+        "strength": 13.8,
+        "density": 2100
+      }
+    ]
+  },
+  "DI-DW-ST40 SYSTEM": {
+    "source": "builtin",
+    "cert_no": "KF25-0728-4",
+    "grade": {
+      "tapping": 1,
+      "ball": 1
+    },
+    "slab": {
+      "thickness": 210,
+      "strength": 24,
+      "density": 2300
+    },
+    "elastic": {
+      "thickness": 40,
+      "dynamic_stiffness": 3.2,
+      "dynamic_stiffness_measured_min": 2.8,
+      "dynamic_stiffness_measured_max": 2.8,
+      "loss_factor": 0.2,
+      "loss_factor_measured_min": 0.14,
+      "loss_factor_measured_max": 0.14
+    },
+    "subslab_layers": [],
+    "floating_layers": [
+      {
+        "name": "경량기포 콘크리트",
+        "thickness": 30,
+        "strength": 1.47,
+        "density": 500
+      },
+      {
+        "name": "마감 모르타르",
+        "thickness": 40,
+        "strength": 13.9,
+        "density": 2100
+      }
+    ]
+  },
+  "DI-DW-ST40P SYSTEM": {
+    "source": "builtin",
+    "cert_no": "KF25-0728-5",
+    "grade": {
+      "tapping": 1,
+      "ball": 1
+    },
+    "slab": {
+      "thickness": 210,
+      "strength": 24,
+      "density": 2300
+    },
+    "elastic": {
+      "thickness": 40,
+      "dynamic_stiffness": 3.2,
+      "dynamic_stiffness_measured_min": null,
+      "dynamic_stiffness_measured_max": null,
+      "loss_factor": 0.2,
+      "loss_factor_measured_min": null,
+      "loss_factor_measured_max": null
+    },
+    "subslab_layers": [],
+    "floating_layers": [
+      {
+        "name": "마감 모르타르(난방배관 PAD포함)",
+        "thickness": 70,
+        "strength": 13.9,
+        "density": 2100
+      }
+    ]
+  },
+  "DI-DW-P403": {
+    "source": "builtin",
+    "cert_no": "KF25-0728-6",
+    "grade": {
+      "tapping": 1,
+      "ball": 3
+    },
+    "slab": {
+      "thickness": 210,
+      "strength": 24,
+      "density": 2300
+    },
+    "elastic": {
+      "thickness": 40,
+      "dynamic_stiffness": 18.6,
+      "dynamic_stiffness_measured_min": null,
+      "dynamic_stiffness_measured_max": null,
+      "loss_factor": 0.2,
+      "loss_factor_measured_min": null,
+      "loss_factor_measured_max": null
+    },
+    "subslab_layers": [],
+    "floating_layers": [
+      {
+        "name": "마감 모르타르",
+        "thickness": 70,
+        "strength": 13.9,
+        "density": 2100
+      }
+    ]
+  },
+  "S7-HB30B8-210": {
+    "source": "builtin",
+    "cert_no": "KF17-1204-2",
+    "grade": {
+      "tapping": 1,
+      "ball": 2
+    },
+    "slab": {
+      "thickness": 210,
+      "strength": 24,
+      "density": 2300
+    },
+    "elastic": {
+      "thickness": 30,
+      "dynamic_stiffness": 17.8,
+      "dynamic_stiffness_measured_min": 14.5,
+      "dynamic_stiffness_measured_max": 17.1,
+      "loss_factor": 0.2,
+      "loss_factor_measured_min": 0.06,
+      "loss_factor_measured_max": 0.13
+    },
+    "subslab_layers": [],
+    "floating_layers": [
+      {
+        "name": "경량기포콘크리트",
+        "thickness": 40,
+        "strength": 0.5,
+        "density": 500
+      },
+      {
+        "name": "마감몰탈",
+        "thickness": 40,
+        "strength": 21.0,
+        "density": 2100
+      }
+    ]
+  },
+  "ZSF-SW402": {
+    "source": "builtin",
+    "cert_no": "KF25-1031-1",
+    "grade": {
+      "tapping": 1,
+      "ball": 4
+    },
+    "slab": {
+      "thickness": 210,
+      "strength": 24,
+      "density": 2300
+    },
+    "elastic": {
+      "thickness": 40,
+      "dynamic_stiffness": 12.0,
+      "dynamic_stiffness_measured_min": null,
+      "dynamic_stiffness_measured_max": null,
+      "loss_factor": 0.2,
+      "loss_factor_measured_min": null,
+      "loss_factor_measured_max": null
+    },
+    "subslab_layers": [],
+    "floating_layers": [
+      {
+        "name": "경량기포 콘크리트",
+        "thickness": 30,
+        "strength": 1.2,
+        "density": 500
+      },
+      {
+        "name": "마감 모르타르",
+        "thickness": 40,
+        "strength": 12.4,
+        "density": 2100
+      }
+    ]
+  },
+  "DI-DJ-Ⅱ system": {
+    "source": "builtin",
+    "cert_no": "KF17-1205-1",
+    "grade": {
+      "tapping": 1,
+      "ball": 3
+    },
+    "slab": {
+      "thickness": 210,
+      "strength": 24,
+      "density": 2300
+    },
+    "elastic": {
+      "thickness": 30,
+      "dynamic_stiffness": 24.2,
+      "dynamic_stiffness_measured_min": 17.4,
+      "dynamic_stiffness_measured_max": 21.2,
+      "loss_factor": 0.2,
+      "loss_factor_measured_min": 0.06,
+      "loss_factor_measured_max": 0.09
+    },
+    "subslab_layers": [],
+    "floating_layers": [
+      {
+        "name": "경량기포콘크리트",
+        "thickness": 40,
+        "strength": 1.4,
+        "density": 500
+      },
+      {
+        "name": "마감 몰탈",
+        "thickness": 40,
+        "strength": 21.0,
+        "density": 2100
+      }
+    ]
+  },
+  "HX-1": {
+    "source": "builtin",
+    "cert_no": "KF25-1219-1",
+    "grade": {
+      "tapping": 1,
+      "ball": 4
+    },
+    "slab": {
+      "thickness": 210,
+      "strength": 24,
+      "density": 2300
+    },
+    "elastic": {
+      "thickness": 60,
+      "dynamic_stiffness": 25.8,
+      "dynamic_stiffness_measured_min": null,
+      "dynamic_stiffness_measured_max": null,
+      "loss_factor": 0.2,
+      "loss_factor_measured_min": null,
+      "loss_factor_measured_max": null
+    },
+    "subslab_layers": [],
+    "floating_layers": [
+      {
+        "name": "마감 모르타르",
+        "thickness": 50,
+        "strength": 12.6,
+        "density": 2100
+      }
+    ]
+  },
+  "HX-1D": {
+    "source": "builtin",
+    "cert_no": "KF25-1219-2",
+    "grade": {
+      "tapping": 1,
+      "ball": 3
+    },
+    "slab": {
+      "thickness": 210,
+      "strength": 24,
+      "density": 2300
+    },
+    "elastic": {
+      "thickness": 60,
+      "dynamic_stiffness": 25.8,
+      "dynamic_stiffness_measured_min": null,
+      "dynamic_stiffness_measured_max": null,
+      "loss_factor": 0.2,
+      "loss_factor_measured_min": null,
+      "loss_factor_measured_max": null
+    },
+    "subslab_layers": [],
+    "floating_layers": [
+      {
+        "name": "마감 모르타르",
+        "thickness": 60,
+        "strength": 12.6,
+        "density": 2100
+      },
+      {
+        "name": "온돌마루 마감재(접착제 포함)",
+        "thickness": 10,
+        "strength": 2.0,
+        "density": 1200
+      }
+    ]
+  },
+  "수_사일런스케어-H2": {
+    "source": "builtin",
+    "cert_no": "KF25-1219-4",
+    "grade": {
+      "tapping": 1,
+      "ball": 3
+    },
+    "slab": {
+      "thickness": 210,
+      "strength": 24,
+      "density": 2300
+    },
+    "elastic": {
+      "thickness": 50,
+      "dynamic_stiffness": 15.7,
+      "dynamic_stiffness_measured_min": null,
+      "dynamic_stiffness_measured_max": null,
+      "loss_factor": 0.2,
+      "loss_factor_measured_min": null,
+      "loss_factor_measured_max": null
+    },
+    "subslab_layers": [],
+    "floating_layers": [
+      {
+        "name": "마감 모르타르",
+        "thickness": 70,
+        "strength": 15.4,
+        "density": 2100
+      }
+    ]
+  },
+  "TY-SB30-39BF": {
+    "source": "builtin",
+    "cert_no": "KF21-0130-1",
+    "grade": {
+      "tapping": 1,
+      "ball": 4
+    },
+    "slab": {
+      "thickness": 210,
+      "strength": 24,
+      "density": 2300
+    },
+    "elastic": {
+      "thickness": 30,
+      "dynamic_stiffness": 22.4,
+      "dynamic_stiffness_measured_min": null,
+      "dynamic_stiffness_measured_max": null,
+      "loss_factor": 0.2,
+      "loss_factor_measured_min": null,
+      "loss_factor_measured_max": null
+    },
+    "subslab_layers": [],
+    "floating_layers": [
+      {
+        "name": "경량기포콘크리트",
+        "thickness": 40,
+        "strength": 0.8,
+        "density": 500
+      },
+      {
+        "name": "마감 모르타르",
+        "thickness": 40,
+        "strength": 11.0,
+        "density": 2100
+      }
+    ]
+  },
+  "K.H Silentec-11": {
+    "source": "builtin",
+    "cert_no": "KF26-0130-1",
+    "grade": {
+      "tapping": 1,
+      "ball": 3
+    },
+    "slab": {
+      "thickness": 210,
+      "strength": 24,
+      "density": 2300
+    },
+    "elastic": {
+      "thickness": 50,
+      "dynamic_stiffness": 6.9,
+      "dynamic_stiffness_measured_min": null,
+      "dynamic_stiffness_measured_max": null,
+      "loss_factor": 0.2,
+      "loss_factor_measured_min": null,
+      "loss_factor_measured_max": null
+    },
+    "subslab_layers": [],
+    "floating_layers": [
+      {
+        "name": "마감 모르타르(고밀도)",
+        "thickness": 60,
+        "strength": 2.3,
+        "density": 2300
+      }
+    ]
+  },
+  "K.H Silentec-12": {
+    "source": "builtin",
+    "cert_no": "KF26-0130-2",
+    "grade": {
+      "tapping": 1,
+      "ball": 4
+    },
+    "slab": {
+      "thickness": 210,
+      "strength": 24,
+      "density": 2300
+    },
+    "elastic": {
+      "thickness": 60,
+      "dynamic_stiffness": 16.1,
+      "dynamic_stiffness_measured_min": null,
+      "dynamic_stiffness_measured_max": null,
+      "loss_factor": 0.2,
+      "loss_factor_measured_min": null,
+      "loss_factor_measured_max": null
+    },
+    "subslab_layers": [],
+    "floating_layers": [
+      {
+        "name": "마감 모르타르",
+        "thickness": 50,
+        "strength": 15.6,
+        "density": 2100
+      }
+    ]
+  },
+  "BD60": {
+    "source": "builtin",
+    "cert_no": "KF25-0513-1",
+    "grade": {
+      "tapping": 1,
+      "ball": 3
+    },
+    "slab": {
+      "thickness": 210,
+      "strength": 24,
+      "density": 2300
+    },
+    "elastic": {
+      "thickness": 60,
+      "dynamic_stiffness": 22.0,
+      "dynamic_stiffness_measured_min": null,
+      "dynamic_stiffness_measured_max": null,
+      "loss_factor": 0.2,
+      "loss_factor_measured_min": null,
+      "loss_factor_measured_max": null
+    },
+    "subslab_layers": [],
+    "floating_layers": [
+      {
+        "name": "마감모르타르",
+        "thickness": 50,
+        "strength": 13.8,
+        "density": 2100
+      }
+    ]
+  },
+  "RMFGNZ-S50K SYSTEM": {
+    "source": "builtin",
+    "cert_no": "KF26-0318-1",
+    "grade": {
+      "tapping": 1,
+      "ball": 2
+    },
+    "slab": {
+      "thickness": 210,
+      "strength": 24,
+      "density": 2300
+    },
+    "elastic": {
+      "thickness": 52,
+      "dynamic_stiffness": 12.0,
+      "dynamic_stiffness_measured_min": null,
+      "dynamic_stiffness_measured_max": null,
+      "loss_factor": 0.3,
+      "loss_factor_measured_min": null,
+      "loss_factor_measured_max": null
+    },
+    "subslab_layers": [],
+    "floating_layers": [
+      {
+        "name": "마감 모르타르",
+        "thickness": 58,
+        "strength": 15.5,
+        "density": 2100
+      }
+    ]
+  },
+  "DWC-1": {
+    "source": "builtin",
+    "cert_no": "KF26-0319-1",
+    "grade": {
+      "tapping": 1,
+      "ball": 3
+    },
+    "slab": {
+      "thickness": 210,
+      "strength": 24,
+      "density": 2300
+    },
+    "elastic": {
+      "thickness": 30,
+      "dynamic_stiffness": 15.2,
+      "dynamic_stiffness_measured_min": null,
+      "dynamic_stiffness_measured_max": null,
+      "loss_factor": 0.25,
+      "loss_factor_measured_min": null,
+      "loss_factor_measured_max": null
+    },
+    "subslab_layers": [],
+    "floating_layers": [
+      {
+        "name": "경량기포 콘크리트",
+        "thickness": 40,
+        "strength": 2.59,
+        "density": 500
+      },
+      {
+        "name": "마감 모르타르",
+        "thickness": 40,
+        "strength": 14.4,
+        "density": 2100
+      }
+    ]
+  },
+  "IH-30A": {
+    "source": "builtin",
+    "cert_no": "KF18-0423-1",
+    "grade": {
+      "tapping": 1,
+      "ball": 3
+    },
+    "slab": {
+      "thickness": 210,
+      "strength": 24,
+      "density": 2300
+    },
+    "elastic": {
+      "thickness": 30,
+      "dynamic_stiffness": 17.4,
+      "dynamic_stiffness_measured_min": null,
+      "dynamic_stiffness_measured_max": null,
+      "loss_factor": 0.2,
+      "loss_factor_measured_min": null,
+      "loss_factor_measured_max": null
+    },
+    "subslab_layers": [],
+    "floating_layers": [
+      {
+        "name": "경량기포콘크리트",
+        "thickness": 40,
+        "strength": 0.5,
+        "density": 500
+      },
+      {
+        "name": "마감모르타르",
+        "thickness": 40,
+        "strength": 21.0,
+        "density": 2100
+      }
+    ]
+  },
+  "효성 에코 NC 플로어": {
+    "source": "builtin",
+    "cert_no": "KF26-0330-1",
+    "grade": {
+      "tapping": 2,
+      "ball": 3
+    },
+    "slab": {
+      "thickness": 210,
+      "strength": 24,
+      "density": 2300
+    },
+    "elastic": {
+      "thickness": 60,
+      "dynamic_stiffness": 17.4,
+      "dynamic_stiffness_measured_min": null,
+      "dynamic_stiffness_measured_max": null,
+      "loss_factor": 0.2,
+      "loss_factor_measured_min": null,
+      "loss_factor_measured_max": null
+    },
+    "subslab_layers": [],
+    "floating_layers": [
+      {
+        "name": "마감 모르타르",
+        "thickness": 50,
+        "strength": 14.1,
+        "density": 2100
+      }
+    ]
+  },
+  "효성 에코 NC 플로어 v1": {
+    "source": "builtin",
+    "cert_no": "KF26-0330-2",
+    "grade": {
+      "tapping": 2,
+      "ball": 3
+    },
+    "slab": {
+      "thickness": 210,
+      "strength": 24,
+      "density": 2300
+    },
+    "elastic": {
+      "thickness": 40,
+      "dynamic_stiffness": 37.0,
+      "dynamic_stiffness_measured_min": null,
+      "dynamic_stiffness_measured_max": null,
+      "loss_factor": 0.2,
+      "loss_factor_measured_min": null,
+      "loss_factor_measured_max": null
+    },
+    "subslab_layers": [],
+    "floating_layers": [
+      {
+        "name": "마감 모르타르",
+        "thickness": 70,
+        "strength": 14.1,
+        "density": 2100
+      }
+    ]
+  },
+  "S25-GT40B-210": {
+    "source": "builtin",
+    "cert_no": "KF26-0330-3",
+    "grade": {
+      "tapping": 1,
+      "ball": 4
+    },
+    "slab": {
+      "thickness": 210,
+      "strength": 24,
+      "density": 2300
+    },
+    "elastic": {
+      "thickness": 40,
+      "dynamic_stiffness": 15.55,
+      "dynamic_stiffness_measured_min": null,
+      "dynamic_stiffness_measured_max": null,
+      "loss_factor": 0.2,
+      "loss_factor_measured_min": null,
+      "loss_factor_measured_max": null
+    },
+    "subslab_layers": [],
+    "floating_layers": [
+      {
+        "name": "경량기포콘크리트",
+        "thickness": 30,
+        "strength": 1.8,
+        "density": 500
+      },
+      {
+        "name": "마감 모르타르",
+        "thickness": 40,
+        "strength": 14.7,
+        "density": 2100
+      }
+    ]
+  },
+  "S25-GT40P-210": {
+    "source": "builtin",
+    "cert_no": "KF26-0330-4",
+    "grade": {
+      "tapping": 1,
+      "ball": 3
+    },
+    "slab": {
+      "thickness": 210,
+      "strength": 24,
+      "density": 2300
+    },
+    "elastic": {
+      "thickness": 40,
+      "dynamic_stiffness": 9.3,
+      "dynamic_stiffness_measured_min": null,
+      "dynamic_stiffness_measured_max": null,
+      "loss_factor": 0.2,
+      "loss_factor_measured_min": null,
+      "loss_factor_measured_max": null
+    },
+    "subslab_layers": [],
+    "floating_layers": [
+      {
+        "name": "경량기포콘크리트",
+        "thickness": 30,
+        "strength": 1.8,
+        "density": 500
+      },
+      {
+        "name": "마감 모르타르",
+        "thickness": 40,
+        "strength": 14.7,
+        "density": 2100
+      }
+    ]
+  },
+  "S25-SIB30P-210": {
+    "source": "builtin",
+    "cert_no": "KF26-0330-5",
+    "grade": {
+      "tapping": 1,
+      "ball": 4
+    },
+    "slab": {
+      "thickness": 210,
+      "strength": 24,
+      "density": 2300
+    },
+    "elastic": {
+      "thickness": 30,
+      "dynamic_stiffness": 23.3,
+      "dynamic_stiffness_measured_min": null,
+      "dynamic_stiffness_measured_max": null,
+      "loss_factor": 0.2,
+      "loss_factor_measured_min": null,
+      "loss_factor_measured_max": null
+    },
+    "subslab_layers": [],
+    "floating_layers": [
+      {
+        "name": "경량기포콘크리트",
+        "thickness": 40,
+        "strength": 1.8,
+        "density": 500
+      },
+      {
+        "name": "마감 모르타르",
+        "thickness": 40,
+        "strength": 14.7,
+        "density": 2100
+      }
+    ]
+  },
+  "EK-바론 60 시스템": {
+    "source": "builtin",
+    "cert_no": "KF21-0330-2",
+    "grade": {
+      "tapping": 1,
+      "ball": 3
+    },
+    "slab": {
+      "thickness": 210,
+      "strength": 24,
+      "density": 2300
+    },
+    "elastic": {
+      "thickness": 60,
+      "dynamic_stiffness": 7.8,
+      "dynamic_stiffness_measured_min": null,
+      "dynamic_stiffness_measured_max": null,
+      "loss_factor": 0.2,
+      "loss_factor_measured_min": null,
+      "loss_factor_measured_max": null
+    },
+    "subslab_layers": [],
+    "floating_layers": [
+      {
+        "name": "마감모르타르",
+        "thickness": 40,
+        "strength": 13.6,
+        "density": 2100
+      }
+    ]
+  },
+  "TOP30W-331": {
+    "source": "builtin",
+    "cert_no": "KF18-0420-1",
+    "grade": {
+      "tapping": 1,
+      "ball": 3
+    },
+    "slab": {
+      "thickness": 210,
+      "strength": 24,
+      "density": 2300
+    },
+    "elastic": {
+      "thickness": 30,
+      "dynamic_stiffness": 8.3,
+      "dynamic_stiffness_measured_min": 8.0,
+      "dynamic_stiffness_measured_max": 8.0,
+      "loss_factor": 0.2,
+      "loss_factor_measured_min": 0.11,
+      "loss_factor_measured_max": 0.11
+    },
+    "subslab_layers": [],
+    "floating_layers": [
+      {
+        "name": "경량기포콘크리트",
+        "thickness": 40,
+        "strength": 0.9,
+        "density": 500
+      },
+      {
+        "name": "마감모르타르",
+        "thickness": 40,
+        "strength": 21.0,
+        "density": 2100
+      }
+    ]
+  },
+  "MS60": {
+    "source": "builtin",
+    "cert_no": "KF26-0401-1",
+    "grade": {
+      "tapping": 1,
+      "ball": 4
+    },
+    "slab": {
+      "thickness": 210,
+      "strength": 24,
+      "density": 2300
+    },
+    "elastic": {
+      "thickness": 60,
+      "dynamic_stiffness": 5.8,
+      "dynamic_stiffness_measured_min": null,
+      "dynamic_stiffness_measured_max": null,
+      "loss_factor": 0.2,
+      "loss_factor_measured_min": null,
+      "loss_factor_measured_max": null
+    },
+    "subslab_layers": [],
+    "floating_layers": [
+      {
+        "name": "마감 모르타르",
+        "thickness": 50,
+        "strength": 15.7,
+        "density": 2100
+      }
+    ]
+  },
+  "W1-HB30B5-280": {
+    "source": "builtin",
+    "cert_no": "KF18-0514-1",
+    "grade": {
+      "tapping": 1,
+      "ball": 4
+    },
+    "slab": {
+      "thickness": 280,
+      "strength": 24,
+      "density": 2300
+    },
+    "elastic": {
+      "thickness": 30,
+      "dynamic_stiffness": 21.7,
+      "dynamic_stiffness_measured_min": null,
+      "dynamic_stiffness_measured_max": null,
+      "loss_factor": 0.2,
+      "loss_factor_measured_min": null,
+      "loss_factor_measured_max": null
+    },
+    "subslab_layers": [],
+    "floating_layers": [
+      {
+        "name": "경량기포콘크리트",
+        "thickness": 40,
+        "strength": 0.5,
+        "density": 500
+      },
+      {
+        "name": "마감모르타르",
+        "thickness": 40,
+        "strength": 14.0,
+        "density": 2100
+      }
+    ]
+  },
+  "H-II-DM70": {
+    "source": "builtin",
+    "cert_no": "KF25-0618-3",
+    "grade": {
+      "tapping": 1,
+      "ball": 3
+    },
+    "slab": {
+      "thickness": 210,
+      "strength": 24,
+      "density": 2300
+    },
+    "elastic": {
+      "thickness": 40,
+      "dynamic_stiffness": 3.7,
+      "dynamic_stiffness_measured_min": null,
+      "dynamic_stiffness_measured_max": null,
+      "loss_factor": 0.2,
+      "loss_factor_measured_min": null,
+      "loss_factor_measured_max": null
+    },
+    "subslab_layers": [],
+    "floating_layers": [
+      {
+        "name": "1차 모르타르",
+        "thickness": 30,
+        "strength": 15.0,
+        "density": 2100
+      },
+      {
+        "name": "마감 모르타르",
+        "thickness": 40,
+        "strength": 14.9,
+        "density": 2100
+      }
+    ]
+  },
+  "H-II-AM40": {
+    "source": "builtin",
+    "cert_no": "KF25-0618-4",
+    "grade": {
+      "tapping": 1,
+      "ball": 3
+    },
+    "slab": {
+      "thickness": 210,
+      "strength": 24,
+      "density": 2300
+    },
+    "elastic": {
+      "thickness": 40,
+      "dynamic_stiffness": 3.7,
+      "dynamic_stiffness_measured_min": null,
+      "dynamic_stiffness_measured_max": null,
+      "loss_factor": 0.2,
+      "loss_factor_measured_min": null,
+      "loss_factor_measured_max": null
+    },
+    "subslab_layers": [],
+    "floating_layers": [
+      {
+        "name": "경량기포 콘크리트",
+        "thickness": 30,
+        "strength": 2.05,
+        "density": 500
+      },
+      {
+        "name": "마감 모르타르",
+        "thickness": 40,
+        "strength": 15.1,
+        "density": 2100
+      }
+    ]
+  },
+  "ST-WAF-90": {
+    "source": "builtin",
+    "cert_no": "KF26-0115-1",
+    "grade": {
+      "tapping": 1,
+      "ball": 3
+    },
+    "slab": {
+      "thickness": 210,
+      "strength": 24,
+      "density": 2300
+    },
+    "elastic": {
+      "thickness": 45,
+      "dynamic_stiffness": 5.2,
+      "dynamic_stiffness_measured_min": null,
+      "dynamic_stiffness_measured_max": null,
+      "loss_factor": 0.25,
+      "loss_factor_measured_min": null,
+      "loss_factor_measured_max": null
+    },
+    "subslab_layers": [],
+    "floating_layers": [
+      {
+        "name": "마감 모르타르",
+        "thickness": 45,
+        "strength": 16.3,
+        "density": 2100
+      }
+    ]
+  },
+  "ST-WAF-110": {
+    "source": "builtin",
+    "cert_no": "KF26-0115-2",
+    "grade": {
+      "tapping": 1,
+      "ball": 2
+    },
+    "slab": {
+      "thickness": 210,
+      "strength": 24,
+      "density": 2300
+    },
+    "elastic": {
+      "thickness": 45,
+      "dynamic_stiffness": 6.1,
+      "dynamic_stiffness_measured_min": null,
+      "dynamic_stiffness_measured_max": null,
+      "loss_factor": 0.2,
+      "loss_factor_measured_min": null,
+      "loss_factor_measured_max": null
+    },
+    "subslab_layers": [],
+    "floating_layers": [
+      {
+        "name": "마감 모르타르",
+        "thickness": 65,
+        "strength": 16.0,
+        "density": 2100
+      }
+    ]
+  },
+  "ST-WAF-401 System": {
+    "source": "builtin",
+    "cert_no": "KF24-0708-1",
+    "grade": {
+      "tapping": 1,
+      "ball": 3
+    },
+    "slab": {
+      "thickness": 210,
+      "strength": 24,
+      "density": 2300
+    },
+    "elastic": {
+      "thickness": 45,
+      "dynamic_stiffness": 11.4,
+      "dynamic_stiffness_measured_min": null,
+      "dynamic_stiffness_measured_max": null,
+      "loss_factor": 0.1,
+      "loss_factor_measured_min": null,
+      "loss_factor_measured_max": null
+    },
+    "subslab_layers": [],
+    "floating_layers": [
+      {
+        "name": "마감모르타르",
+        "thickness": 65,
+        "strength": 18.2,
+        "density": 2100
+      }
+    ]
+  },
+  "H-S40": {
+    "source": "builtin",
+    "cert_no": "KF26-0330-6",
+    "grade": {
+      "tapping": 2,
+      "ball": 3
+    },
+    "slab": {
+      "thickness": 210,
+      "strength": 24,
+      "density": 2300
+    },
+    "elastic": {
+      "thickness": 40,
+      "dynamic_stiffness": 19.8,
+      "dynamic_stiffness_measured_min": null,
+      "dynamic_stiffness_measured_max": null,
+      "loss_factor": 0.2,
+      "loss_factor_measured_min": null,
+      "loss_factor_measured_max": null
+    },
+    "subslab_layers": [],
+    "floating_layers": [
+      {
+        "name": "경량기포콘크리트",
+        "thickness": 30,
+        "strength": 1.27,
+        "density": 500
+      },
+      {
+        "name": "마감 모르타르",
+        "thickness": 40,
+        "strength": 15.1,
+        "density": 2100
+      }
+    ]
+  },
+  "H-S60": {
+    "source": "builtin",
+    "cert_no": "KF26-0330-7",
+    "grade": {
+      "tapping": 1,
+      "ball": 2
+    },
+    "slab": {
+      "thickness": 210,
+      "strength": 24,
+      "density": 2300
+    },
+    "elastic": {
+      "thickness": 60,
+      "dynamic_stiffness": 21.7,
+      "dynamic_stiffness_measured_min": null,
+      "dynamic_stiffness_measured_max": null,
+      "loss_factor": 0.2,
+      "loss_factor_measured_min": null,
+      "loss_factor_measured_max": null
+    },
+    "subslab_layers": [],
+    "floating_layers": [
+      {
+        "name": "마감 모르타르",
+        "thickness": 50,
+        "strength": 15.1,
+        "density": 2100
+      }
+    ]
+  },
+  "DS-HL-META-40": {
+    "source": "builtin",
+    "cert_no": "KF26-0727-1",
+    "grade": {
+      "tapping": 1,
+      "ball": 3
+    },
+    "slab": {
+      "thickness": 210,
+      "strength": 24,
+      "density": 2300
+    },
+    "elastic": {
+      "thickness": 40,
+      "dynamic_stiffness": 6.6,
+      "dynamic_stiffness_measured_min": null,
+      "dynamic_stiffness_measured_max": null,
+      "loss_factor": 0.35,
+      "loss_factor_measured_min": null,
+      "loss_factor_measured_max": null
+    },
+    "subslab_layers": [],
+    "floating_layers": [
+      {
+        "name": "경량기포콘크리트",
+        "thickness": 30,
+        "strength": 1.57,
+        "density": 500
+      },
+      {
+        "name": "마감 모르타르",
+        "thickness": 40,
+        "strength": 14.17,
+        "density": 2100
+      }
+    ]
+  },
+  "RMFGNZ-S40K": {
+    "source": "builtin",
+    "cert_no": "KF26-0729-1",
+    "grade": {
+      "tapping": 1,
+      "ball": 2
+    },
+    "slab": {
+      "thickness": 210,
+      "strength": 24,
+      "density": 2300
+    },
+    "elastic": {
+      "thickness": 40,
+      "dynamic_stiffness": 2.0,
+      "dynamic_stiffness_measured_min": null,
+      "dynamic_stiffness_measured_max": null,
+      "loss_factor": 0.2,
+      "loss_factor_measured_min": null,
+      "loss_factor_measured_max": null
+    },
+    "subslab_layers": [],
+    "floating_layers": [
+      {
+        "name": "마감 모르타르",
+        "thickness": 70,
+        "strength": 14.7,
+        "density": 2100
+      }
+    ]
+  },
+  "RMFGNZ-S40KM": {
+    "source": "builtin",
+    "cert_no": "KF26-0729-2",
+    "grade": {
+      "tapping": 1,
+      "ball": 1
+    },
+    "slab": {
+      "thickness": 210,
+      "strength": 24,
+      "density": 2300
+    },
+    "elastic": {
+      "thickness": 52,
+      "dynamic_stiffness": 5.0,
+      "dynamic_stiffness_measured_min": null,
+      "dynamic_stiffness_measured_max": null,
+      "loss_factor": 0.2,
+      "loss_factor_measured_min": null,
+      "loss_factor_measured_max": null
+    },
+    "subslab_layers": [],
+    "floating_layers": [
+      {
+        "name": "마감 모르타르",
+        "thickness": 58,
+        "strength": 14.6,
+        "density": 2100
+      }
+    ]
+  },
+  "Flosys-20": {
+    "source": "builtin",
+    "cert_no": null,
+    "grade": {
+      "tapping": null,
+      "ball": null
+    },
+    "slab": {
+      "thickness": null,
+      "strength": null,
+      "density": null
+    },
+    "elastic": {
+      "thickness": 30,
+      "dynamic_stiffness": null,
+      "dynamic_stiffness_measured_min": 17.6,
+      "dynamic_stiffness_measured_max": 17.6,
+      "loss_factor": null,
+      "loss_factor_measured_min": 0.07,
+      "loss_factor_measured_max": 0.07
+    },
+    "subslab_layers": [],
+    "floating_layers": []
+  },
+  "S20-60EB2-210": {
+    "source": "builtin",
+    "cert_no": "KF25-0225-2",
+    "grade": {
+      "tapping": null,
+      "ball": null
+    },
+    "slab": {
+      "thickness": null,
+      "strength": null,
+      "density": null
+    },
+    "elastic": {
+      "thickness": 60,
+      "dynamic_stiffness": null,
+      "dynamic_stiffness_measured_min": 6.4,
+      "dynamic_stiffness_measured_max": 8.7,
+      "loss_factor": null,
+      "loss_factor_measured_min": 0.08,
+      "loss_factor_measured_max": 0.11
+    },
+    "subslab_layers": [],
+    "floating_layers": []
+  },
+  "Zero Sound Foam-C25": {
+    "source": "builtin",
+    "cert_no": null,
+    "grade": {
+      "tapping": null,
+      "ball": null
+    },
+    "slab": {
+      "thickness": null,
+      "strength": null,
+      "density": null
+    },
+    "elastic": {
+      "thickness": 30,
+      "dynamic_stiffness": null,
+      "dynamic_stiffness_measured_min": 9.7,
+      "dynamic_stiffness_measured_max": 9.7,
+      "loss_factor": null,
+      "loss_factor_measured_min": 0.05,
+      "loss_factor_measured_max": 0.05
+    },
+    "subslab_layers": [],
+    "floating_layers": []
+  }
+}
